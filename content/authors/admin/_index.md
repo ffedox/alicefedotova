@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Alice Fedotova
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Alice
+last_name: Fedotova
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🦝
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,84 +20,48 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Language Technology Consultant
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: 'Former Research Fellow @UniBo'
+    url: 'https://www.unibo.it/sitoweb/alice.fedotova2/contenuti-utili'
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:alice.fedotova7@gmail.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://x.com/fedotova_alice
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/ffedox
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/alice-fedotova/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=9U5v4Y0AAAAJ&hl=en
+  - icon: academicons/arxiv
+    url: https://arxiv.org/search/cs?searchtype=author&query=Fedotova,+A
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0001-4850-0974
 
-interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
 
-education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
+  - position: Research Fellow
+    company_name: University of Bologna
+    company_url: 'https://www.unibo.it/'
+    icon: hero/circle-stack
+    date_start: 2023-10-01
+    date_end: 2024-10-01
+    summary: |
       Responsibilities include:
+      - Testing Automatic Speech Recognition models for verbatim transcription
+      - Updating the European Parliament Translation and Interpreting Corpus
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+  - position: Research Intern
+    company_name: University of Bologna
+    company_url: 'https://www.unibo.it/'
     company_logo: ''
     date_start: 2016-01-01
     date_end: 2020-12-31
@@ -106,6 +70,44 @@ work:
       - Migrated infrastructure to a new data center
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+interests:
+  - Natural Language Processing
+  - Computational Linguistics
+  - Language Resource Creation
+  - Language Data Analysis
+
+education:
+  - area: MA in Translation Technology
+    institution: University of Bologna
+    date_start: 2021-10-01
+    date_end: 2023-07-13
+    summary: |
+      Final Grade: 110/110 with Honors
+
+      Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.barron). Presented one paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
+
+      Courses included:
+      - Natural Language Processing
+      - Quantitative Data Analysis
+      - Python and R Programming
+
+    button:
+      text: 'Read Thesis'
+      url: 'https://amslaurea.unibo.it/id/eprint/29006/1/Alice_Fedotova_Dissertation.pdf'
+  - area: BA in Languages and Technologies for Intercultural Communication
+    institution: University of Bologna
+    date_start: 2017-10-01
+    date_end: 2020-10-02
+    summary: |
+      Final Grade: 109/110
+
+      Previously referred to as "Intercultural and Linguistic Mediation". Spent one semester abroad as part of the Overseas exchange program, taking courses at the [Higher School of Economics (Высшая Школа Экономики)](https://www.hse.ru/en/).
+
+      Courses included:
+      - Computational Linguistics
+      - Computer-Assisted Translation
+      - Translation and Liaison Interpreting
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -183,4 +185,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Alice Fedotova is an independent researcher and a freelance consultant in the field of Natural Language Processing. She is a former Research Fellow at the University of Bologna, where she worked on Automatic Speech Recognition and multimodal Transformers. Her research interests include Information Extraction, Language Resource Creation, and Multimodality. She is a member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
