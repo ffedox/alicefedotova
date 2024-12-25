@@ -72,10 +72,10 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 interests:
-  - Natural Language Processing
-  - Computational Linguistics
+  - Information Extraction
   - Language Resource Creation
-  - Language Data Analysis
+  - Multimodal Deep Learning
+  - Benchmarks and Evaluation
 
 education:
   - area: MA in Translation Technology
