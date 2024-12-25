@@ -82,17 +82,17 @@ slides: ""
 
 The rise in processing power, combined with advancements in machine learning, has resulted in an increase in the use of computational methods for automated content analysis. Although human coding is more effective for handling complex variables at the core of media studies, audiovisual content is often understudied because analyzing it is difficult and time-consuming. The present work sets out to address this issue by experimenting with unimodal and multimodal transformer-based models in an attempt to automatically classify segments from the popular medical TV drama Grey's Anatomy (2005-) into three isotopies that are typical of the medical drama genre. To approach the task, this study explores two different classification approaches: the first approach is to employ a single multiclass classifier, while the second involves using the one-vs-the-rest approach to decompose the multiclass task with a series of binary classifiers. We investigate both these approaches in unimodal and multimodal settings, with the aim of identifying the most effective combination of the two. The results of the experiments can be considered promising, as the multiclass multimodal approach results in an F1 score of 0.723, a noticeable improvement over the F1 of 0.686 obtained by the one-vs-the-rest unimodal approach based on text.
 
-Keywords: automated content analysis; deep learning; transformers; multimodality; grey’s anatomy
+**Keywords:** automated content analysis; deep learning; transformers; multimodality; grey’s anatomy
 
 ## 1. Introduction
 
 In the field of media studies, content analysis is an established methodology for the study of audiovisual products. A central aspect of content analysis is coding, which consists in assigning units of analysis to categories for the purpose of describing and quantifying phenomena of interest (Krippendorff 1980: 84-5). Previous research has identified three fundamental categories or “isotopies" that characterize the medical drama genre: the professional plot, the sentimental plot, and the medical cases plot. In the context of medical dramas, content analysis can be conducted by assigning isotopies to segments, i.e. portions of video “characterized both by space–time–action continuity and invariance in the thematic-narrative elements” (Rocchi and Pescatore 2022: 3). This poses a challenge for automated approaches, as modern segmentation algorithms are not effective in identifying units that are relevant for the three isotopies. Additionally, coding requires trained annotators with a significant degree of expert knowledge and a good understanding of content analysis. Recognizing the complexity of the task and the need for more effective strategies, we experiment with unimodal and multimodal transformer-based models to evaluate the possibility of streamlining the content analysis process for medical dramas. With this objective, we formulate the following research questions:
 
-Research Question 1: Is it better to approach the task with a single multiclass model or a one-vs-the-rest approach?
+**Research Question 1:** Is it better to approach the task with a single multiclass model or a one-vs-the-rest approach?
 
-Research Question 2: Which modality is more informative for the task of predicting the isotopies?
+**Research Question 2:** Which modality is more informative for the task of predicting the isotopies?
 
-Research Question 3: Does the inclusion of keyframes in addition to the subtitles result in higher performance as compared to only using the subtitles?
+**Research Question 3:** Does the inclusion of keyframes in addition to the subtitles result in higher performance as compared to only using the subtitles?
 
 To answer our research questions, we first create a multimodal corpus by combining subtitles and keyframes extracted from 17 seasons of Grey’s Anatomy (2005-), one of the longest-running medical drama series. Three deep learning models, namely CLIP, BERT, and MMBT, are trained using this corpus to explore the impact of different modalities on the identification of the isotopies. Additionally, we investigate two different approaches to the classification problem: a multiclass approach, which considers all isotopies simultaneously, and a one-vs-the-rest approach, which identifies one isotopy at the time. The results of the experiments are promising, with the multiclass multimodal approach obtaining an F1 score of 0.723. Furthermore, our findings suggest a relationship between the two approaches and the modalities involved, as well as differences in terms of the contribution of the individual modalities.
 
@@ -126,22 +126,23 @@ The availability of start times and end times for each segment allowed for the a
 
 For the purpose of aligning the subtitles with the data obtained from the Medical Dramas Dataset, a method for assigning each of the subtitles to the corresponding segment was then identified. Inspired by Tapaswi et al. (2015: 5), in which subtitles appearing at video shot boundaries were attributed to the shot which has a majority portion of the subtitle, the mean of each subtitle's timespan was used as the criterion for the alignment. For example, given a subtitle that starts at 00:00:00.804 and ends at 00:00:02.701, the mean is 00:00:01.752. If a segment starts at 00:00:00.000 and ends at 00:00:07.000, then the subtitle is part of that segment. By doing so, a subtitle that overlaps with two different segments is assigned to the one where it appears on the screen for the longest amount of time.
 
-| id | segm_start | segm_end | pp | sp | mc | img_name |
+| text | segm_start | segm_end | pp | sp | mc | img_name |
+| --- | --- | --- | --- | --- | --- | --- |
 | --- | --- | --- | --- | --- | --- | --- |
 | S13E01_0 | 00:00:49 | 00:02:18 | 0 | 6 | 0 | S13E01_0.jpg |
 | Meredith: Don't you wish you could just take it back... |
-| id | segm_start | segm_end | pp | sp | mc | img_name |
+| text | segm_start | segm_end | pp | sp | mc | img_name |
+| --- | --- | --- | --- | --- | --- | --- |
 | S13E01_1 | 00:02:18 | 00:02:36 | 0 | 2 | 4 | S13E01_1.jpg |
 | [Siren wails] Male, mid 20s. Need a CT. Page Avery! |
-| id | segm_start | segm_end | pp | sp | mc | img_name |
+| text | segm_start | segm_end | pp | sp | mc | img_name |
+| --- | --- | --- | --- | --- | --- | --- |
 | S13E01_2 | 00:02:36 | 00:03:18 | 0 | 6 | 0 | S13E01_2.jpg |
 | Two champagnes. What happened to DeLuca? |
 
 Table 1: Some instances from the resulting corpus. The text obtained from the subtitles has been shortened for displaying purposes.
 
-[FIGURE_1.jpg]
-
-Figure 1: Keyframe S13E01 0.jpg.
+![Figure 1: Keyframe S13E01 0.jpg.](./FIGURE_1.jpg)
 
 3.2. Data Preprocessing and Description
 
@@ -167,6 +168,7 @@ As for the textual encoder, we again use bert-base-uncased so as to be able to c
 | CLIP | (3) | 0.553 | (3) | 0.444 | (2) | 0.710 | (3) | 0.593 | 0.582 |
 | BERT | (3) | 0.716 | (2) | 0.619 | (2) | 0.815 | (2) | 0.711 | 0.712 |
 | MMBT | (3) | 0.736 | (3) | 0.580 | (3) | 0.825 | (3) | 0.741 | 0.715 |
+
 Table 3: Validation F1 scores of the best models. (e) refers to the number of epochs.
 
 |  |  | Multiclass | OvR | OvR | OvR | OvR | OvR | OvR | OvR |
@@ -175,6 +177,8 @@ Table 3: Validation F1 scores of the best models. (e) refers to the number of ep
 | CLIP | (3) | 0.536 | (3) | 0.443 | (2) | 0.696 | (3) | 0.559 | 0.566 |
 | BERT | (3) | 0.672 | (2) | 0.563 | (2) | 0.788 | (2) | 0.706 | 0.686 |
 | MMBT | (3) | 0.723 | (3) | 0.592 | (3) | 0.818 | (3) | 0.728 | 0.713 |
+
+Table 4: Test F1 scores of the best models. (e) refers to the number of epochs.
 
 ## 5. Discussion
 
