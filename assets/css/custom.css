@@ -2,9 +2,6 @@
     margin: auto;
     padding: 2rem;
     max-width: 900px;
-    color: #000000; /* Ensure text is visible without the black background */
-    font-family: Arial, sans-serif;
-    background-color: transparent; /* Remove the black background */
   }
   
   .row {
@@ -18,10 +15,10 @@
   }
   
   .section-title {
-    font-size: 1.5rem;
+    font-size: inherit; /* Use the default font size */
     margin-bottom: 1rem;
-    font-weight: bold;
-    color: #000000;
+    font-weight: inherit; /* Use the default font weight */
+    color: inherit; /* Use the default color */
   }
   
   .fa-ul {
@@ -33,21 +30,23 @@
     display: flex;
     align-items: flex-start;
     margin-bottom: 1.5rem;
+    color: inherit; /* Inherit the theme's default text color */
+    font-family: inherit; /* Use the default font */
   }
   
   .fa-li {
     margin-right: 1rem;
-    color: #000000;
     font-size: 1.25rem;
+    color: inherit; /* Inherit the theme's icon color */
   }
   
   .organization {
-    font-size: 0.9rem;
-    color: #666666; /* Slightly muted color for organization names */
+    font-size: inherit; /* Use the default font size */
+    color: inherit; /* Use the default color */
     margin-top: 0.25rem;
   }
   
   ul li strong {
-    font-weight: bold;
+    font-weight: inherit; /* Use the default font weight */
   }
   
