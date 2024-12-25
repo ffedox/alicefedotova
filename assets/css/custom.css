@@ -19,7 +19,7 @@
 
 .experience-education-container .row {
   display: flex;
-  gap: -0.2rem;
+  gap: -1rem;
   margin-top: 2rem;
 }
 
