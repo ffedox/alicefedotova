@@ -25,28 +25,15 @@ publishDate: '2023-12-23T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *14th Media Mutations International Conference*
-publication_short: In *Media Mutations*
+publication: In *Investigating Medical Drama TV Series: Approaches and Perspectives. 14th Media Mutations International Conference*
+publication_short: In *Investigating Medical Drama TV Series: Approaches and Perspectives. 14th Media Mutations International Conference*
 
 abstract: >
-  The rise in processing power, combined with advancements in machine learning, 
-  has resulted in an increase in the use of computational methods for automated content analysis. 
-  Although human coding is more effective for handling complex variables at the core of media studies, 
-  audiovisual content is often understudied because analyzing it is difficult and time-consuming. 
-  The present work sets out to address this issue by experimenting with unimodal and multimodal 
-  transformer-based models in an attempt to automatically classify segments from the popular medical TV 
-  drama Grey’s Anatomy (ABC, 2005-) into three isotopies that are typical of the medical drama genre. 
-  To approach the task, this study explores two different classification approaches: the first approach 
-  is to employ a single multiclass classifier, while the second involves using the one-vs-the-rest approach 
-  to decompose the multiclass task with a series of binary classifiers. We investigate both these approaches 
-  in unimodal and multimodal settings, with the aim of identifying the most effective combination of the two. 
-  The results of the experiments can be considered promising, as the multiclass multimodal approach results 
-  in an F1 score of 0.723, a noticeable improvement over the F1 of 0.686 obtained by the one-vs-the-rest 
-  unimodal approach based on text.
+  Classifying audiovisual content using unimodal and multimodal transformer-based models. The study compares two classification strategies: a single multiclass classifier and a one-vs-the-rest approach, examining their performance in both unimodal and multimodal settings. Results show the multiclass multimodal approach achieves the best performance, with an F1 score of 0.723, outperforming the unimodal text-based one-vs-the-rest method.
 
 # Summary. An optional shortened abstract.
 summary: >
-  The study investigates automated classification of audiovisual content, specifically segments of Grey's Anatomy, using unimodal and multimodal transformer-based models. It compares two classification strategies: a single multiclass classifier and a one-vs-the-rest approach, examining their performance in both unimodal and multimodal settings. Results show the multiclass multimodal approach achieves the best performance, with an F1 score of 0.723, outperforming the unimodal text-based one-vs-the-rest method.
+  Classifying audiovisual content using unimodal and multimodal transformer-based models. The study compares two classification strategies: a single multiclass classifier and a one-vs-the-rest approach, examining their performance in both unimodal and multimodal settings. Results show the multiclass multimodal approach achieves the best performance, with an F1 score of 0.723, outperforming the unimodal text-based one-vs-the-rest method.
 
 tags:
   - Multimodal Transformers
