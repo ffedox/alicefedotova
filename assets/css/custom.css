@@ -31,9 +31,9 @@
 }
 
 .section-title {
-  font-size: inherit; /* Inherit default font size */
+  font-size: 1.2rem;
   margin-bottom: 1rem;
-  font-weight: inherit; /* Inherit default font weight */
+  font-weight: bold;
 }
 
 .fa-ul {
@@ -58,7 +58,7 @@
 }
 
 .item-subtitle {
-  font-size: inherit; /* Inherit default font size */
+  font-size: 0.9rem;
   color: inherit;
   margin-top: 0.25rem;
 }
