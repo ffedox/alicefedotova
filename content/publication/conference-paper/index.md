@@ -58,7 +58,7 @@ url_slides: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: 'Image credit: [**Media Mutations**](https://site.unibo.it/damslab/it/eventi/media-mutations-14-investigating-medical-drama-tv-series-approaches-and-perspectives)'
   focal_point: ''
   preview_only: false
 
