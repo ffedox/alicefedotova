@@ -134,10 +134,6 @@ For the purpose of aligning the subtitles with the data obtained from the Medica
 
 Table 1: Some instances from the resulting corpus.
 
-![Figure 1: Keyframe S13E01 0.jpg.](./FIGURE_1.jpg)
-
-Figure 1: Keyframe S13E01 0.jpg.
-
 3.2. Data Preprocessing and Description
 
 The preprocessing of the corpus involved several steps designed to refine and improve the quality of the data and was mainly conducted using the NLTK library (Bird et al. 2009). Most importantly, segments containing nine subtitles or less in which stopwords and consecutive repeated words constituted more than 65% of the total tokens, were removed. In addition to this, other preprocessing steps included removing song lyrics (e.g., “♪ I don't want to wait...♪”); song names (e.g., “[Lorde's ‘Team’ playing]”); subtitle author’s names (e.g., “Telescript by Raceman, Subtitles/Sync by Bemused”); italics tags (e.g., “<i>” and “</i>” in “I'm <i>really</i> sorry”); hesitations (e.g., “-he” in “He-he doesn't... He doesn't mean that”); hyphens indicating dialogue between different characters (e.g., “-Is he talking? -Yeah.”); and segments containing only sounds (e.g., “[Whistles]”).
