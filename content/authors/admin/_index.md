@@ -190,43 +190,35 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
 <div class="container">
   <div class="row">
     <div class="col">
-      <h3 class="section-title">
-        <i class="fas fa-briefcase" style="margin-right: 0.5rem;"></i> Experience
-      </h3>
+      <h3 class="section-title">Experience</h3>
       <ul class="fa-ul">
         <li>
-          <span class="fa-li"><i class="fas fa-briefcase"></i></span>
           <div>
-            <strong>Research Fellow, 2023-2024</strong>
-            <div class="organization">University of Bologna</div>
+            <span class="item-title">Research Fellow, 2023-2024</span>
+            <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
         <li>
-          <span class="fa-li"><i class="fas fa-briefcase"></i></span>
           <div>
-            <strong>Research Intern, 2021-2022</strong>
-            <div class="organization">University of Bologna</div>
+            <span class="item-title">Research Intern, 2021-2022</span>
+            <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
       </ul>
     </div>
     <div class="col">
-      <h3 class="section-title">
-        <i class="fas fa-graduation-cap" style="margin-right: 0.5rem;"></i> Education
-      </h3>
+      <h3 class="section-title">Education</h3>
       <ul class="fa-ul">
         <li>
-          <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
           <div>
-            <strong>MA in Translation Technology, 2023</strong>
-            <div class="organization">University of Bologna</div>
+            <span class="item-title">MA in Translation Technology, 2023</span>
+            <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
         <li>
-          <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
           <div>
-            <strong>BA in Languages and Technologies for Intercultural Communication, 2013</strong>
-            <div class="organization">University of Bologna</div>
+            <span class="item-title">BA in Languages and Technologies for Intercultural Communication, 2013</span>
+            <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
       </ul>
