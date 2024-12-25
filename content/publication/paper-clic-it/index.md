@@ -70,7 +70,7 @@ slides: example
 
 ### Full Text
 
-## Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription
+### Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription
 
 **Alice Fedotova**  
 Department of Interpreting and Translation

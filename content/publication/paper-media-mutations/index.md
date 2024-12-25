@@ -78,7 +78,9 @@ projects:
 slides: ""
 ---
 
-## 5. Toward the Automatic Identification of Isotopies
+### Full Text
+
+### 5. Toward the Automatic Identification of Isotopies
 
 **Alice Fedotova**  
 Department of Interpreting and Translation
