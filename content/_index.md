@@ -36,7 +36,7 @@ sections:
       subtitle: ''
       text: |-
 
-        My research explores emerging and fundamental challenges in the field of language technology, combining linguistic insights with reproducible methods to address the complexities of unimodal and multimodal data.
+        My research explores emerging and fundamental challenges in the field of language technology, combining linguistic insights with reproducible methods to address the complexities of textual, spoken and multimodal data.
 
         Recent projects include designing pipelines for the creation of language resources, improving speech recognition for verbatim transcription, and adapting multimodal transformer-based models for audiovisual content classification.
 
