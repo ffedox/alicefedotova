@@ -12,6 +12,7 @@
   
   .col {
     flex: 1;
+    min-width: 40%; /* Ensure each column takes up a larger percentage */
   }
   
   .section-title {
