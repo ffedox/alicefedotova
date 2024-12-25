@@ -1,7 +1,19 @@
-/* Increase font size for specific header elements */
-h1 {
-    font-size: 3rem; /* Adjust the size as needed */
-  }
-  h2 {
-    font-size: 2.5rem; /* Adjust the size as needed */
-  }
+#about-me {
+    font-size: larger; /* Adjust 'larger' to a specific size like '2em' or '24px' as needed */
+}
+
+.bio-text p {
+    font-size: larger; /* Adjust the size as needed */
+}
+
+.inline-flex.items-center {
+    font-size: larger; /* Adjust the size */
+}
+
+.list-disc li {
+    font-size: larger; /* Adjust the size */
+}
+
+.description p {
+    font-size: larger; /* Adjust the size */
+}
