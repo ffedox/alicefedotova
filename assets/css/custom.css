@@ -31,24 +31,25 @@
 }
 
 .section-title {
-  font-size: 1.2rem;
-  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
 }
 
 .fa-ul {
   list-style: none;
   padding-left: 0;
+  margin-left: 0; /* Align list with section title */
 }
 
 .fa-ul li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem; /* Reduce space between list items */
 }
 
 .fa-li {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   font-size: inherit; /* Inherit default font size */
 }
 
