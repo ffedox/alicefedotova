@@ -193,12 +193,14 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
       <h3 class="section-title">Experience</h3>
       <ul class="fa-ul">
         <li>
+          <span class="fa-li"><i class="fas fa-briefcase"></i></span>
           <div>
             <span class="item-title">Research Fellow, 2023-2024</span>
             <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
         <li>
+          <span class="fa-li"><i class="fas fa-briefcase"></i></span>
           <div>
             <span class="item-title">Research Intern, 2021-2022</span>
             <div class="item-subtitle">University of Bologna</div>
@@ -210,12 +212,14 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
       <h3 class="section-title">Education</h3>
       <ul class="fa-ul">
         <li>
+          <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
           <div>
             <span class="item-title">MA in Translation Technology, 2023</span>
             <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
         <li>
+          <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
           <div>
             <span class="item-title">BA in Languages and Technologies for Intercultural Communication, 2013</span>
             <div class="item-subtitle">University of Bologna</div>
@@ -225,6 +229,7 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
     </div>
   </div>
 </div>
+
 
 
 {style="text-align: justify;"}

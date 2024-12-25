@@ -1,13 +1,13 @@
 .container {
     margin: auto;
     padding: 2rem;
-    max-width: 1200px;
+    max-width: 1400px; /* Increase max-width for more horizontal space */
   }
   
   .row {
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 6rem; /* Increased horizontal space between columns */
   }
   
   .col {
@@ -15,10 +15,10 @@
   }
   
   .section-title {
-    font-size: 1.5rem; /* Use the default font size */
+    font-size: 1.5rem; /* Default font size for titles */
     margin-bottom: 1rem;
-    font-weight: bold; /* Use the default font weight */
-    color: #000000; /* Use the default color */
+    font-weight: bold; /* Bold section titles */
+    color: inherit; /* Use default color */
   }
   
   .fa-ul {
@@ -28,32 +28,24 @@
   
   .fa-ul li {
     margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-start;
   }
   
   .fa-li {
     margin-right: 1rem;
     font-size: 1.25rem;
-    color: inherit; /* Inherit the theme's icon color */
+    color: inherit; /* Icon color inherits theme */
   }
-
+  
   .item-title {
     font-size: 1.2rem; /* Larger text for the main item */
     color: inherit; /* Adjust text color */
-  } 
-
+  }
+  
   .item-subtitle {
     font-size: 0.9rem; /* Smaller text for the subtitle */
     color: inherit; /* Muted color for the subtitle */
     margin-top: 0.25rem;
-  }
-  
-  .organization {
-    font-size: inherit; /* Use the default font size */
-    color: inherit; /* Use the default color */
-    margin-top: 0.25rem;
-  }
-  
-  ul li strong {
-    font-weight: inherit; /* Use the default font weight */
   }
   
