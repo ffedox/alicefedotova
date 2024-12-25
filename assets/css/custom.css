@@ -1,52 +1,49 @@
 .experience-education-container {
     margin: auto;
-    padding: 2rem;
-    max-width: 2500px; /* Increase max-width for more horizontal space */
+    padding: 2rem 0;
+    max-width: 1400px; /* Reduce width for better alignment with the above text */
   }
   
   .experience-education-container .row {
     display: flex;
-    justify-content: space-between;
-    gap: 6rem; /* Increased horizontal space between columns */
+    justify-content: flex-start; /* Align with the left margin of the text above */
+    gap: 6rem; /* Increased space between columns */
   }
   
   .experience-education-container .col {
     flex: 1;
-    min-width: 40%; /* Ensure each column takes up a larger percentage */
   }
   
-  .experience-education-container .section-title {
-    font-size: 1.5rem; /* Default font size for titles */
+  .section-title {
+    font-size: 1.5rem;
     margin-bottom: 1rem;
-    font-weight: bold; /* Bold section titles */
-    color: inherit; /* Use default color */
+    font-weight: bold;
   }
   
-  .experience-education-container .fa-ul {
+  .fa-ul {
     list-style: none;
     padding-left: 0;
   }
   
-  .experience-education-container .fa-ul li {
-    margin-bottom: 1.5rem;
+  .fa-ul li {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* Keep icon and text on the same line */
+    margin-bottom: 1rem; /* Adjust spacing between list items */
   }
   
-  .experience-education-container .fa-li {
+  .fa-li {
     margin-right: 1rem;
     font-size: 1.25rem;
-    color: inherit; /* Icon color inherits theme */
   }
   
-  .experience-education-container .item-title {
-    font-size: 1.2rem; /* Larger text for the main item */
-    color: inherit; /* Adjust text color */
+  .item-title {
+    font-size: 1.2rem;
+    color: inherit;
   }
   
-  .experience-education-container .item-subtitle {
-    font-size: 0.9rem; /* Smaller text for the subtitle */
-    color: inherit; /* Muted color for the subtitle */
-    margin-top: 0.25rem;
+  .item-subtitle {
+    font-size: 0.9rem;
+    color: inherit;
+    margin-left: 2rem; /* Add space below the title text */
   }
   
