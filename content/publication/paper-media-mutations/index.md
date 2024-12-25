@@ -1,5 +1,5 @@
 ---
-title: 'Towards the Automatic Identification of Isotopies'
+title: 'Decoding Medical Dramas: Identifying Isotopies through Multimodal Classification'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
