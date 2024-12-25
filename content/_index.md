@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Advancing language technology through robust, linguistically-informed methods. I develop tools to analyze unimodal and multimodal data with a focus on efficiency and reproducibility.
+        Advancing language technology through robust linguistically-informed methods. I develop tools to analyze unimodal and multimodal data with a focus on efficiency and reproducibility.
 
         In my recent work I designed pipelines for language resource creation, improved transcription accuracy for spoken data, and leveraged transformer-based models to address complex multimodal challenges.
 
