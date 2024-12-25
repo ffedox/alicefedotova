@@ -1,52 +1,36 @@
 .container {
     margin: auto;
     padding: 2rem;
-    max-width: 900px;
+    max-width: 1200px; /* Increased max-width for more horizontal space */
   }
   
   .row {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
-  }
-  
-  .col {
-    flex: 1;
+    gap: 4rem; /* Increased horizontal space between columns */
   }
   
   .section-title {
-    font-size: inherit; /* Use the default font size */
+    font-size: 1.5rem; /* Slightly larger font size for titles */
     margin-bottom: 1rem;
-    font-weight: inherit; /* Use the default font weight */
-    color: inherit; /* Use the default color */
-  }
-  
-  .fa-ul {
-    list-style: none;
-    padding-left: 0;
+    font-weight: bold; /* Bold for section titles */
   }
   
   .fa-ul li {
-    display: flex;
-    align-items: flex-start;
+    flex-direction: column; /* Align items vertically */
     margin-bottom: 1.5rem;
-    color: inherit; /* Inherit the theme's default text color */
-    font-family: inherit; /* Use the default font */
+    color: inherit; /* Keep default color */
+    font-family: inherit; /* Keep default font */
   }
   
-  .fa-li {
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    color: inherit; /* Inherit the theme's icon color */
+  .fa-ul li .item-title {
+    font-size: 1.2rem; /* Larger font size for the main item */
+    color: #333333; /* Adjusted text color for visibility */
   }
   
-  .organization {
-    font-size: inherit; /* Use the default font size */
-    color: inherit; /* Use the default color */
+  .fa-ul li .item-subtitle {
+    font-size: 0.9rem; /* Smaller font size for the subtitle */
+    color: #666666; /* Muted color for the subtitle */
     margin-top: 0.25rem;
-  }
-  
-  ul li strong {
-    font-weight: inherit; /* Use the default font weight */
   }
   
