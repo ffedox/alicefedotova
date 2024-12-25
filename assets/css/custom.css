@@ -1,50 +1,50 @@
-.container {
+.experience-education-container {
     margin: auto;
     padding: 2rem;
     max-width: 2500px; /* Increase max-width for more horizontal space */
   }
   
-  .row {
+  .experience-education-container .row {
     display: flex;
     justify-content: space-between;
     gap: 6rem; /* Increased horizontal space between columns */
   }
   
-  .col {
+  .experience-education-container .col {
     flex: 1;
     min-width: 40%; /* Ensure each column takes up a larger percentage */
   }
   
-  .section-title {
+  .experience-education-container .section-title {
     font-size: 1.5rem; /* Default font size for titles */
     margin-bottom: 1rem;
     font-weight: bold; /* Bold section titles */
     color: inherit; /* Use default color */
   }
   
-  .fa-ul {
+  .experience-education-container .fa-ul {
     list-style: none;
     padding-left: 0;
   }
   
-  .fa-ul li {
+  .experience-education-container .fa-ul li {
     margin-bottom: 1.5rem;
     display: flex;
     align-items: flex-start;
   }
   
-  .fa-li {
+  .experience-education-container .fa-li {
     margin-right: 1rem;
     font-size: 1.25rem;
     color: inherit; /* Icon color inherits theme */
   }
   
-  .item-title {
+  .experience-education-container .item-title {
     font-size: 1.2rem; /* Larger text for the main item */
     color: inherit; /* Adjust text color */
   }
   
-  .item-subtitle {
+  .experience-education-container .item-subtitle {
     font-size: 0.9rem; /* Smaller text for the subtitle */
     color: inherit; /* Muted color for the subtitle */
     margin-top: 0.25rem;
