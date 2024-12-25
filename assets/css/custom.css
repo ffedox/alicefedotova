@@ -1,66 +1,64 @@
 .experience-education-container {
-    max-width: 1200px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: -3.5rem; /* Reduce the top margin of the sections */
-    padding-top: 0; /* Remove any extra padding */
-  }
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -3.5rem; /* Adjust as needed */
+  padding-top: 0;
+}
 
-  .bio-container {
-    margin-bottom: 0.1rem; /* Reduce the space below the bio container */
-    padding: 0; /* Ensure no extra padding inside the container */
-  }
+.bio-container {
+  margin-bottom: 0.1rem;
+  padding: 0;
+}
 
-  .bio-container p {
-    margin-bottom: 0.1rem; /* Further reduce the bottom margin of the paragraph */
-    line-height: 1.4; /* Adjust line spacing to make the bio more compact */
-  }
-  
-  
-  .experience-education-container .row {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; /* Ensure the row spans the full width of the container */
-    gap: 4rem; /* Adjust spacing between columns */
-    margin-top: 2rem; /* Add space between sections */
-  }
-  
-  .experience-education-container .col {
-    flex: 1; /* Allow columns to take equal space */
-    min-width: 45%; /* Ensure each column takes up significant horizontal space */
-  }
-  
-  .section-title {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
-  }
-  
-  .fa-ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .fa-ul li {
-    display: flex;
-    align-items: flex-start; /* Keep items aligned */
-    margin-bottom: 1rem; /* Adjust spacing between list items */
-  }
-  
-  .fa-li {
-    margin-right: 1rem;
-    font-size: 1.25rem;
-  }
-  
-  .item-title {
-    font-size: 1.2rem;
-    color: inherit;
-  }
-  
-  .item-subtitle {
-    font-size: 0.9rem;
-    color: inherit;
-    margin-top: 0.25rem;
-  }
-  
+.bio-container p {
+  margin-bottom: 0.1rem;
+  line-height: 1.4;
+}
+
+.experience-education-container .row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+
+.experience-education-container .col {
+  flex: 1;
+  min-width: 45%;
+}
+
+.section-title {
+  font-size: inherit; /* Inherit default font size */
+  margin-bottom: 1rem;
+  font-weight: inherit; /* Inherit default font weight */
+}
+
+.fa-ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.fa-ul li {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.fa-li {
+  margin-right: 1rem;
+  font-size: inherit; /* Inherit default font size */
+}
+
+.item-title {
+  font-size: inherit; /* Inherit default font size */
+  color: inherit; /* Inherit default text color */
+}
+
+.item-subtitle {
+  font-size: inherit; /* Inherit default font size */
+  color: inherit;
+  margin-top: 0.25rem;
+}
