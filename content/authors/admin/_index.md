@@ -214,14 +214,14 @@ I'm an independent researcher and a freelance consultant specializing in Natural
         <li>
           <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
           <div>
-            <span class="item-title">MA in Translation Technology, 2023</span>
+            <span class="item-title">MA in Translation and Technology</span>
             <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
         <li>
           <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
           <div>
-            <span class="item-title">BA in Languages and Technologies for Intercultural Communication, 2020</span>
+            <span class="item-title">BA in Languages and Technologies for Intercultural Communication</span>
             <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
