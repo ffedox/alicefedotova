@@ -190,7 +190,9 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
 <div class="container">
   <div class="row">
     <div class="col">
-      <h3 class="section-title">Experience</h3>
+      <h3 class="section-title">
+        <i class="fas fa-briefcase" style="margin-right: 0.5rem;"></i> Experience
+      </h3>
       <ul class="fa-ul">
         <li>
           <span class="fa-li"><i class="fas fa-briefcase"></i></span>
@@ -209,7 +211,9 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
       </ul>
     </div>
     <div class="col">
-      <h3 class="section-title">Education</h3>
+      <h3 class="section-title">
+        <i class="fas fa-graduation-cap" style="margin-right: 0.5rem;"></i> Education
+      </h3>
       <ul class="fa-ul">
         <li>
           <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
