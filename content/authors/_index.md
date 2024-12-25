@@ -6,7 +6,7 @@ title: Alberto Barrón-Cedeño
 name_pronunciation: ''
 
 # Role/position/tagline
-role: Language Technology Researcher
+role: Associate Professor, University of Bologna
 
 profiles:
   - icon: at-symbol
@@ -22,3 +22,4 @@ profiles:
     url: https://scholar.google.com/citations?user=0q0QVG4AAAAJ
   - icon: academicons/orcid
     url: https://orcid.org/0000-0003-4719-3420
+---
