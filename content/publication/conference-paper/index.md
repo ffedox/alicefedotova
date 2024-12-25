@@ -25,8 +25,8 @@ publishDate: '2023-12-23T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Investigating Medical Drama TV Series: Approaches and Perspectives. 14th Media Mutations International Conference*
-publication_short: In *Investigating Medical Drama TV Series: Approaches and Perspectives. 14th Media Mutations International Conference*
+publication: "In *Investigating Medical Drama TV Series: Approaches and Perspectives. 14th Media Mutations International Conference*"
+publication_short: "In *Investigating Medical Drama TV Series: Approaches and Perspectives. 14th Media Mutations International Conference*"
 
 abstract: >
   Classifying audiovisual content using unimodal and multimodal transformer-based models. The study compares two classification strategies: a single multiclass classifier and a one-vs-the-rest approach, examining their performance in both unimodal and multimodal settings. Results show the multiclass multimodal approach achieves the best performance, with an F1 score of 0.723, outperforming the unimodal text-based one-vs-the-rest method.
