@@ -84,10 +84,12 @@ slides: ""
 
 **Alice Fedotova**  
 Department of Interpreting and Translation
+
 University of Bologna  
 
 **Alberto Barrón-Cedeño**  
 Department of Interpreting and Translation
+
 University of Bologna 
 
 ### Abstract
