@@ -3,17 +3,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 0.5rem; /* Reduce the top margin of the sections */
+    margin-top: 0.1rem; /* Reduce the top margin of the sections */
     padding-top: 0; /* Remove any extra padding */
   }
 
   .bio-container {
-    margin-bottom: 0.5rem; /* Reduce the space below the bio container */
+    margin-bottom: 0.1rem; /* Reduce the space below the bio container */
     padding: 0; /* Ensure no extra padding inside the container */
   }
 
   .bio-container p {
-    margin-bottom: 0.5rem; /* Further reduce the bottom margin of the paragraph */
+    margin-bottom: 0.1rem; /* Further reduce the bottom margin of the paragraph */
     line-height: 1.4; /* Adjust line spacing to make the bio more compact */
   }
   
