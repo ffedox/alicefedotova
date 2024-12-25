@@ -200,7 +200,7 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
         </li>
         <li>
           <div>
-            <span class="item-title">Research Intern, 2021-2022</span>
+            <span class="item-title">Research Intern 2021-2022</span>
             <div class="item-subtitle">University of Bologna</div>
           </div>
         </li>
