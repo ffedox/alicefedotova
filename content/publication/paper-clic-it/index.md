@@ -1,5 +1,5 @@
 ---
-title: "Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription"
+title: "Constructing EPTIC: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription"
 authors:
 - admin
 - Adriano Ferraresi
@@ -31,7 +31,7 @@ abstract: This paper presents a novel pipeline for constructing multimodal and m
 summary: This paper presents a novel pipeline for constructing multimodal and multilingual parallel corpora, with a focus on evaluating state-of-the-art automatic speech recognition tools for verbatim transcription. Our findings indicate that current technologies can streamline corpus construction, with fine-tuning showing promising results in terms of transcription quality compared to out-of-the-box Whisper models. 
 
 tags:
-- Source Themes
+- Automatic Speech Recognition
 featured: true
 
 # links:
