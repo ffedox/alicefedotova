@@ -68,7 +68,9 @@ projects: []
 slides: example
 ---
 
-### Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription
+## Full Text
+
+## Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription
 
 **Alice Fedotova**  
 Department of Interpreting and Translation
@@ -86,7 +88,7 @@ University of Bologna
 Department of Interpreting and Translation
 University of Bologna 
 
-#### Abstract
+### Abstract
 
 This paper presents a novel pipeline for constructing multimodal and multilingual parallel corpora, with a focus on evaluating
 state-of-the-art automatic speech recognition tools for verbatim transcription. The pipeline was developed during the process
