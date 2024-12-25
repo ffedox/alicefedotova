@@ -4,7 +4,7 @@ authors:
 - admin
 - Adriano Ferraresi
 - Maja Miličević Petrović
--Alberto Barrón-Cedeño
+- Alberto Barrón-Cedeño
 
 #author_notes:
 #- "Equal contribution"
