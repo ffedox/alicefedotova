@@ -126,12 +126,17 @@ The availability of start times and end times for each segment allowed for the a
 
 For the purpose of aligning the subtitles with the data obtained from the Medical Dramas Dataset, a method for assigning each of the subtitles to the corresponding segment was then identified. Inspired by Tapaswi et al. (2015: 5), in which subtitles appearing at video shot boundaries were attributed to the shot which has a majority portion of the subtitle, the mean of each subtitle's timespan was used as the criterion for the alignment. For example, given a subtitle that starts at 00:00:00.804 and ends at 00:00:02.701, the mean is 00:00:01.752. If a segment starts at 00:00:00.000 and ends at 00:00:07.000, then the subtitle is part of that segment. By doing so, a subtitle that overlaps with two different segments is assigned to the one where it appears on the screen for the longest amount of time.
 
-| text | segm_start | segm_end | pp | sp | mc | img_name |
-| Meredith: Don't you wish you could just take it back... | S13E01_0 | 00:00:49 | 00:02:18 | 0 | 6 | 0 | S13E01_0.jpg |
-| text | segm_start | segm_end | pp | sp | mc | img_name |
-| [Siren wails] Male, mid 20s. Need a CT. Page Avery! | S13E01_1 | 00:02:18 | 00:02:36 | 0 | 2 | 4 | S13E01_1.jpg |
-| text | segm_start | segm_end | pp | sp | mc | img_name |
-| Two champagnes. What happened to DeLuca? | S13E01_2 | 00:02:36 | 00:03:18 | 0 | 6 | 0 | S13E01_2.jpg |
+| Text                                              | Segm_Start | Segm_End  | PP | SP | MC | Img_Name      |
+|---------------------------------------------------|------------|-----------|----|----|----|--------------|
+| Meredith: Don't you wish you could just take it back... | S13E01_0  | 00:00:49 | 00:02:18 | 0  | 6  | 0  | S13E01_0.jpg |
+|---------------------------------------------------|------------|-----------|----|----|----|--------------|
+| Text                                              | Segm_Start | Segm_End  | PP | SP | MC | Img_Name      |
+|---------------------------------------------------|------------|-----------|----|----|----|--------------|
+| [Siren wails] Male, mid 20s. Need a CT. Page Avery! | S13E01_1  | 00:02:18 | 00:02:36 | 0  | 2  | 4  | S13E01_1.jpg |
+|---------------------------------------------------|------------|-----------|----|----|----|--------------|
+| Text                                              | Segm_Start | Segm_End  | PP | SP | MC | Img_Name      |
+|---------------------------------------------------|------------|-----------|----|----|----|--------------|
+| Two champagnes. What happened to DeLuca?          | S13E01_2  | 00:02:36 | 00:03:18 | 0  | 6  | 0  | S13E01_2.jpg |
 
 Table 1: Some instances from the resulting corpus. The text obtained from the subtitles has been shortened for displaying purposes.
 
