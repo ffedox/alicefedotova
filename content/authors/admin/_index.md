@@ -189,22 +189,22 @@ Hi, I'm Alice! I'm an independent researcher and a freelance consultant speciali
 
 <div class="container">
   <div class="row justify-content-between">
-    <div class="col-6">
+    <div class="col">
       <h3>Experience</h3>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Fellow, 2023-2024</li>
-        <li><h3 class="portrait-title">University of Bologna</h3></li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
         <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Intern, 2021-2022</li>
-        <li><h3 class="portrait-title">University of Bologna</h3></li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
       </ul>
     </div>
-    <div class="col-6">
+    <div class="col">
       <h3>Education</h3>
       <ul class="fa-ul">
         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MA in Translation Technology, 2023</li>
-        <li><h3 class="portrait-title">University of Bologna</h3></li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BA in Languages and Technologies for Intercultural Communication, 2013</li>
-        <li><h3 class="portrait-title">University of Bologna</h3></li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
       </ul>
     </div>
   </div>
