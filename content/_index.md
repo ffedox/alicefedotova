@@ -35,9 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Advancing language technology through robust linguistically-informed methods. I develop tools to analyze unimodal and multimodal data with a focus on efficiency and reproducibility.
+        Researching and developing tools for processing unimodal and multimodal data, with a focus on reproducibility and insights inspired by linguistics.
 
-        In my recent work I designed pipelines for language resource creation, improved transcription accuracy for spoken data, and leveraged transformer-based models to address complex multimodal challenges.
+        In my recent work I designed pipelines for the creation of language resources, improved transcription accuracy for spoken data, and leveraged text and vision transformers to address complex multimodal challenges.
 
         Currently investigating Task 1 of [CLEF eRisk 2025](https://erisk.irlab.org/). Open to collaborations! 🔍
     design:
