@@ -25,6 +25,7 @@
 
 .experience-education-container .col {
   flex: 1;
+  min-width: 0; /* Allow columns to shrink below their content width if necessary */
 }
 
 .section-title {
