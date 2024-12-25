@@ -1,23 +1,23 @@
 ---
-title: 'An example conference paper'
+title: 'Towards the Automatic Identification of Isotopies'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
+  - Alberto Barrón-Cedeño
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+#  - 'Equal contribution'
+#  - 'Equal contribution'
 
 date: '2013-07-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2023-12-23T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +25,16 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: In *14th Media Mutations International Conference*
+publication_short: In *Media Mutations*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The rise in processing power, combined with advancements in machine learning, has resulted in an increase in the use of computational methods for automated content analysis. Although human coding is more effective for handling complex variables at the core of media studies, audiovisual content is often understudied because analyzing it is difficult and time-consuming. The present work sets out to address this issue by experimenting with unimodal and multimodal transformer-based models in an attempt to automatically classify segments from the popular medical TV drama Grey’s Anatomy (ABC, 2005-) into three isotopies that are typical of the medical drama genre. To approach the task, this study explores two different classification approaches: the first approach is to employ a single multiclass classifier, while the second involves using the one-vs-the-rest approach to decompose the multiclass task with a series of binary classifiers. We investigate both these approaches in unimodal and multimodal settings, with the aim of identifying the most effective combination of the two. The results of the experiments can be considered promising, as the multiclass multimodal approach results in an F1 score of 0.723, a noticeable improvement over the F1 of 0.686 obtained by the one-vs-the-rest unimodal approach based on text.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: The study investigates automated classification of audiovisual content, specifically segments of Grey's Anatomy, using unimodal and multimodal transformer-based models. It compares two classification strategies: a single multiclass classifier and a one-vs-the-rest approach, examining their performance in both unimodal and multimodal settings. Results show the multiclass multimodal approach achieves the best performance, with an F1 score of 0.723, outperforming the unimodal text-based one-vs-the-rest method.
 
 tags:
-  - Large Language Models
+  - Multimodal Transformers
 
 # Display this page in the Featured widget?
 featured: true
@@ -44,14 +44,14 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: 'https://assets.pubpub.org/0udfsz51/Investigating%20Medical%20Drama.%20TV%20Series%20Approaches%20and%20Perspectives-41703235697121.pdf#page=87'
+url_code: 'https://github.com/TinfFoil/isotopy-identification'
+url_dataset: 'https://osf.io/24tus/'
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+#url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+#url_video: 'https://youtube.com'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
