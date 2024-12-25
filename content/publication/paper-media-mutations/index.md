@@ -83,14 +83,10 @@ slides: ""
 ### 5. Toward the Automatic Identification of Isotopies
 
 **Alice Fedotova**  
-Department of Interpreting and Translation
-
-University of Bologna  
+Department of Interpreting and Translation, University of Bologna  
 
 **Alberto Barrón-Cedeño**  
-Department of Interpreting and Translation
-
-University of Bologna 
+Department of Interpreting and Translation, University of Bologna  
 
 ### Abstract
 
