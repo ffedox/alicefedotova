@@ -36,11 +36,11 @@ sections:
       subtitle: ''
       text: |-
 
-        <p style="text-align: center;">As a language technology researcher, I explore new solutions for addressing the complexities of unimodal and multimodal data, informed by linguistic insights and a dedication to reproducibility.
+        <div style="text-align: justify"> As a language technology researcher, I explore new solutions for addressing the complexities of unimodal and multimodal data, informed by linguistic insights and a dedication to reproducibility.</div>
 
-        In my recent work I designed pipelines for the creation of language resources, improved transcription accuracy for spoken data, and leveraged text and vision transformers to address complex multimodal challenges.
+        <div style="text-align: justify">In my recent work I designed pipelines for the creation of language resources, improved transcription accuracy for spoken data, and leveraged text and vision transformers to address complex multimodal challenges.</div>
 
-        Currently investigating Task 1 of [CLEF eRisk 2025](https://erisk.irlab.org/). Open to collaborations! 🔍</p>
+        <div style="text-align: justify">Currently investigating Task 1 of [CLEF eRisk 2025](https://erisk.irlab.org/). Open to collaborations! 🔍</div>
     design:
       columns: '1'
   - block: collection
