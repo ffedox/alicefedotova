@@ -183,9 +183,9 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## About Me
+## Hi, I'm Alice! 👋🏻
 
-Hi, I'm Alice! I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
+I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
 
 <div class="experience-education-container">
   <div class="row">

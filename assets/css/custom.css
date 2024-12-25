@@ -1,10 +1,10 @@
 .experience-education-container {
     margin: auto;
-    padding-top: 2rem;
-    max-width: 1200px; /* Adjust width to match the "About Me" text */
+    padding-top: 1rem; /* Reduced padding to minimize vertical space */
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align container to the left */
+    align-items: flex-start;
   }
   
   .experience-education-container .row {
