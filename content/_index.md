@@ -35,11 +35,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Advancing language technology through robust, linguistically-informed methods. I develop tools to analyze unimodal and multimodal data with a focus on efficiency and reproducibility. 
         
-        Please reach out to collaborate 😃
+        Currently investigating Task 1 of [CLEF eRisk 2025](https://erisk.irlab.org/). Open to collaborations! 🔍
     design:
       columns: '1'
   - block: collection
