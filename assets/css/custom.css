@@ -1,36 +1,52 @@
 .container {
     margin: auto;
     padding: 2rem;
-    max-width: 1200px; /* Increased max-width for more horizontal space */
+    max-width: 900px;
   }
   
   .row {
     display: flex;
     justify-content: space-between;
-    gap: 4rem; /* Increased horizontal space between columns */
+    gap: 2rem;
+  }
+  
+  .col {
+    flex: 1;
   }
   
   .section-title {
-    font-size: 1.5rem; /* Slightly larger font size for titles */
+    font-size: inherit; /* Use the default font size */
     margin-bottom: 1rem;
-    font-weight: bold; /* Bold for section titles */
+    font-weight: inherit; /* Use the default font weight */
+    color: inherit; /* Use the default color */
+  }
+  
+  .fa-ul {
+    list-style: none;
+    padding-left: 0;
   }
   
   .fa-ul li {
-    flex-direction: column; /* Align items vertically */
+    display: flex;
+    align-items: flex-start;
     margin-bottom: 1.5rem;
-    color: inherit; /* Keep default color */
-    font-family: inherit; /* Keep default font */
+    color: inherit; /* Inherit the theme's default text color */
+    font-family: inherit; /* Use the default font */
   }
   
-  .fa-ul li .item-title {
-    font-size: 1.2rem; /* Larger font size for the main item */
-    color: #333333; /* Adjusted text color for visibility */
+  .fa-li {
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    color: inherit; /* Inherit the theme's icon color */
   }
   
-  .fa-ul li .item-subtitle {
-    font-size: 0.9rem; /* Smaller font size for the subtitle */
-    color: #666666; /* Muted color for the subtitle */
+  .organization {
+    font-size: inherit; /* Use the default font size */
+    color: inherit; /* Use the default color */
     margin-top: 0.25rem;
+  }
+  
+  ul li strong {
+    font-weight: inherit; /* Use the default font weight */
   }
   
