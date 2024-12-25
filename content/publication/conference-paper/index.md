@@ -6,18 +6,18 @@ title: 'Towards the Automatic Identification of Isotopies'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Alberto Barrón-Cedeño
+  - alberto
 
 # Author notes (optional)
 author_notes:
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2023-12-23T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-12-23T00:00:00Z'
+publishDate: '2024-12-23T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
