@@ -1,13 +1,13 @@
 .container {
     margin: auto;
     padding: 2rem;
-    max-width: 900px;
+    max-width: 1200px;
   }
   
   .row {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 4rem;
   }
   
   .col {
@@ -15,10 +15,10 @@
   }
   
   .section-title {
-    font-size: inherit; /* Use the default font size */
+    font-size: 1.5rem; /* Use the default font size */
     margin-bottom: 1rem;
-    font-weight: inherit; /* Use the default font weight */
-    color: inherit; /* Use the default color */
+    font-weight: bold; /* Use the default font weight */
+    color: #000000; /* Use the default color */
   }
   
   .fa-ul {
@@ -27,17 +27,24 @@
   }
   
   .fa-ul li {
-    display: flex;
-    align-items: flex-start;
     margin-bottom: 1.5rem;
-    color: inherit; /* Inherit the theme's default text color */
-    font-family: inherit; /* Use the default font */
   }
   
   .fa-li {
     margin-right: 1rem;
     font-size: 1.25rem;
     color: inherit; /* Inherit the theme's icon color */
+  }
+
+  .item-title {
+    font-size: 1.2rem; /* Larger text for the main item */
+    color: inherit; /* Adjust text color */
+  } 
+
+  .item-subtitle {
+    font-size: 0.9rem; /* Smaller text for the subtitle */
+    color: inherit; /* Muted color for the subtitle */
+    margin-top: 0.25rem;
   }
   
   .organization {
