@@ -30,20 +30,22 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        As a language technology researcher, I explore new solutions for addressing the complexities of unimodal and multimodal data, informed by linguistic insights and a dedication to reproducibility.
 
-        In my recent work I designed pipelines for the creation of language resources, improved transcription accuracy for spoken data, and leveraged text and vision transformers to address complex multimodal challenges.
 
-        Currently investigating Task 1 of [CLEF eRisk 2025](https://erisk.irlab.org/). Open to collaborations! 🔍
-    design:
-      columns: '1'
-  - block: collection
-    id: papers
+<div class="centered-text smaller-font">
+  <h2>📚 My Research</h2>
+  <p>
+    As a language technology researcher, I explore new solutions for addressing the complexities of unimodal and multimodal data, informed by linguistic insights and a dedication to reproducibility.
+  </p>
+  <p>
+    In my recent work, I designed pipelines for the creation of language resources, improved transcription accuracy for spoken data, and leveraged text and vision transformers to address complex multimodal challenges.
+  </p>
+  <p>
+    Currently investigating Task 1 of <a href="https://erisk.irlab.org/" target="_blank" rel="noopener">CLEF eRisk 2025</a>. Open to collaborations! 🔍
+  </p>
+</div>
+
+
     content:
       title: Featured Publications
       filters:
