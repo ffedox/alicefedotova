@@ -2,15 +2,15 @@
     margin: auto;
     padding: 2rem;
     max-width: 900px;
-    color: #ffffff; /* For a dark theme, white text */
-    background-color: #000000; /* Background to match dark theme */
+    color: #000000; /* Ensure text is visible without the black background */
     font-family: Arial, sans-serif;
+    background-color: transparent; /* Remove the black background */
   }
   
   .row {
     display: flex;
     justify-content: space-between;
-    gap: 2rem; /* Adds space between the columns */
+    gap: 2rem;
   }
   
   .col {
@@ -21,7 +21,7 @@
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: bold;
-    color: #f1f1f1; /* Slightly lighter than the body text */
+    color: #000000;
   }
   
   .fa-ul {
@@ -37,13 +37,13 @@
   
   .fa-li {
     margin-right: 1rem;
-    color: #ffffff;
+    color: #000000;
     font-size: 1.25rem;
   }
   
   .organization {
     font-size: 0.9rem;
-    color: #cccccc; /* Slightly muted color for organization names */
+    color: #666666; /* Slightly muted color for organization names */
     margin-top: 0.25rem;
   }
   
