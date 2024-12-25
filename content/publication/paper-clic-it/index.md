@@ -73,24 +73,16 @@ slides: example
 ### Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription
 
 **Alice Fedotova**  
-Department of Interpreting and Translation
-
-University of Bologna  
+Department of Interpreting and Translation, University of Bologna  
 
 **Adriano Ferraresi**  
-Department of Interpreting and Translation
-
-University of Bologna 
+Department of Interpreting and Translation, University of Bologna  
 
 **Maja Miličević Petrović**  
-Department of Interpreting and Translation
-
-University of Bologna 
+Department of Interpreting and Translation, University of Bologna  
 
 **Alberto Barrón-Cedeño**  
-Department of Interpreting and Translation
-
-University of Bologna 
+Department of Interpreting and Translation, University of Bologna  
 
 ### Abstract
 
