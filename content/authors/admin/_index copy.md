@@ -47,29 +47,29 @@ profiles:
     url: https://orcid.org/0009-0001-4850-0974
 
 
-#work:
-#  - position: Research Fellow
-#    company_name: University of Bologna
-#    company_url: 'https://www.unibo.it/'
-#    icon: hero/circle-stack
-#    date_start: 2023-10-01
-#    date_end: 2024-10-01
-#    summary: |
-#      Responsibilities include:
-#      - Testing Automatic Speech Recognition models for verbatim transcription
-#      - Updating the European Parliament Translation and Interpreting Corpus
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - position: Research Intern
-#    company_name: University of Bologna
-#    company_url: 'https://www.unibo.it/'
-##    company_logo: ''
-#    date_start: 2016-01-01
-#    date_end: 2020-12-31
-#    summary: |
-#      Responsibilities include:
-#      - Migrated infrastructure to a new data center
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Research Fellow
+    company_name: University of Bologna
+    company_url: 'https://www.unibo.it/'
+    icon: hero/circle-stack
+    date_start: 2023-10-01
+    date_end: 2024-10-01
+    summary: |
+      Responsibilities include:
+      - Testing Automatic Speech Recognition models for verbatim transcription
+      - Updating the European Parliament Translation and Interpreting Corpus
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Research Intern
+    company_name: University of Bologna
+    company_url: 'https://www.unibo.it/'
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 #interests:
 #  - Information Extraction
@@ -77,37 +77,37 @@ profiles:
 #  - Multimodal Deep Learning
 #  - Benchmarks and Evaluation
 
-#education:
-#  - area: MA in Translation Technology
-#    institution: University of Bologna
-#    date_start: 2021-10-01
-#    date_end: 2023-07-13
-#    summary: |
-#      Final Grade: 110/110 with Honors
+education:
+  - area: MA in Translation Technology
+    institution: University of Bologna
+    date_start: 2021-10-01
+    date_end: 2023-07-13
+    summary: |
+      Final Grade: 110/110 with Honors
 
-#      Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented one paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
+      Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.barron). Presented one paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
 
-#      Courses included:
-#      - Natural Language Processing
-#      - Quantitative Data Analysis
-#      - Python and R Programming
+      Courses included:
+      - Natural Language Processing
+      - Quantitative Data Analysis
+      - Python and R Programming
 
-#    button:
-#      text: 'Read Thesis'
-#      url: 'https://amslaurea.unibo.it/id/eprint/29006/1/Alice_Fedotova_Dissertation.pdf'
-#  - area: BA in Languages and Technologies for Intercultural Communication
-##    institution: University of Bologna
-#    date_start: 2017-10-01
-##    date_end: 2020-10-02
-#    summary: |
-#      Final Grade: 109/110
+    button:
+      text: 'Read Thesis'
+      url: 'https://amslaurea.unibo.it/id/eprint/29006/1/Alice_Fedotova_Dissertation.pdf'
+  - area: BA in Languages and Technologies for Intercultural Communication
+    institution: University of Bologna
+    date_start: 2017-10-01
+    date_end: 2020-10-02
+    summary: |
+      Final Grade: 109/110
 
-#      Previously referred to as "Intercultural and Linguistic Mediation". Spent one semester abroad as part of the Overseas exchange program, taking courses at the [Higher School of Economics (Высшая Школа Экономики)](https://www.hse.ru/en/).
+      Previously referred to as "Intercultural and Linguistic Mediation". Spent one semester abroad as part of the Overseas exchange program, taking courses at the [Higher School of Economics (Высшая Школа Экономики)](https://www.hse.ru/en/).
 
-#      Courses included:
-#      - Computational Linguistics
-#      - Computer-Assisted Translation
-#      - Translation and Liaison Interpreting
+      Courses included:
+      - Computational Linguistics
+      - Computer-Assisted Translation
+      - Translation and Liaison Interpreting
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
