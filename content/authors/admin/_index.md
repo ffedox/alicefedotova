@@ -71,11 +71,11 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
-interests:
-  - Information Extraction
-  - Language Resource Creation
-  - Multimodal Deep Learning
-  - Benchmarks and Evaluation
+#interests:
+#  - Information Extraction
+#  - Language Resource Creation
+#  - Multimodal Deep Learning
+#  - Benchmarks and Evaluation
 
 education:
   - area: MA in Translation Technology
@@ -186,3 +186,27 @@ awards:
 ## About Me
 
 Hi, I'm Alice! I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
+
+
+<div class="container">
+  <div class="row justify-content-between">
+    <!-- Experience Section -->
+    <div class="col">
+      <h3>Experience</h3>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Fellow, University of Bologna (2023–2024)</li>
+          <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Intern, University of Bologna (2016–2020)</li>
+        </ul>
+    </div>
+    <!-- Education Section -->
+    <div class="col">
+      <h3>Education</h3>
+        <ul class="fa-ul">
+          <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MA in Translation Technology, University of Bologna (2021–2023)</li>
+          <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BA in Languages and Technologies for Intercultural Communication, University of Bologna (2017–2020)</li>
+        </ul>
+    </div>
+  </div>
+</div>
+
+{style="text-align: justify;"}
