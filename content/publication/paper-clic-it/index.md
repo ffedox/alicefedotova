@@ -67,3 +67,34 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
+
+## Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription
+
+**Alice Fedotova**  
+Department of Interpreting and Translation
+University of Bologna  
+
+**Adriano Ferraresi**  
+Department of Interpreting and Translation
+University of Bologna 
+
+**Maja Miličević Petrović**  
+Department of Interpreting and Translation
+University of Bologna 
+
+**Alberto Barrón-Cedeño**  
+Department of Interpreting and Translation
+University of Bologna 
+
+### Abstract
+
+This paper presents a novel pipeline for constructing multimodal and multilingual parallel corpora, with a focus on evaluating
+state-of-the-art automatic speech recognition tools for verbatim transcription. The pipeline was developed during the process
+of updating the European Parliament Translation and Interpreting Corpus (EPTIC), leveraging recent NLP advancements to
+automate challenging tasks like multilingual alignment and speech recognition. Our findings indicate that current technologies
+can streamline corpus construction, with fine-tuning showing promising results in terms of transcription quality compared to
+out-of-the-box Whisper models. The lowest overall WER achieved for English was 0.180, using a fine-tuned Whisper-small
+model. As for Italian, the lowest WER (0.152) was obtained by the Whisper Large-v2 model, with the fine-tuned Whisper-small
+model still outperforming the baseline (0.201 vs. 0.219).
+
+**Keywords:** multimodal corpora construction, translation and interpreting corpora, verbatim automatic speech recognition

@@ -78,7 +78,7 @@ projects:
 slides: ""
 ---
 
-# 5. Toward the Automatic Identification of Isotopies
+## 5. Toward the Automatic Identification of Isotopies
 
 **Alice Fedotova**  
 Department of Interpreting and Translation
@@ -88,13 +88,13 @@ University of Bologna
 Department of Interpreting and Translation
 University of Bologna 
 
-## Abstract
+### Abstract
 
 The rise in processing power, combined with advancements in machine learning, has resulted in an increase in the use of computational methods for automated content analysis. Although human coding is more effective for handling complex variables at the core of media studies, audiovisual content is often understudied because analyzing it is difficult and time-consuming. The present work sets out to address this issue by experimenting with unimodal and multimodal transformer-based models in an attempt to automatically classify segments from the popular medical TV drama Grey's Anatomy (2005-) into three isotopies that are typical of the medical drama genre. To approach the task, this study explores two different classification approaches: the first approach is to employ a single multiclass classifier, while the second involves using the one-vs-the-rest approach to decompose the multiclass task with a series of binary classifiers. We investigate both these approaches in unimodal and multimodal settings, with the aim of identifying the most effective combination of the two. The results of the experiments can be considered promising, as the multiclass multimodal approach results in an F1 score of 0.723, a noticeable improvement over the F1 of 0.686 obtained by the one-vs-the-rest unimodal approach based on text.
 
 **Keywords:** automated content analysis; deep learning; transformers; multimodality; grey’s anatomy
 
-## 1. Introduction
+### 1. Introduction
 
 In the field of media studies, content analysis is an established methodology for the study of audiovisual products. A central aspect of content analysis is coding, which consists in assigning units of analysis to categories for the purpose of describing and quantifying phenomena of interest (Krippendorff 1980: 84-5). Previous research has identified three fundamental categories or “isotopies" that characterize the medical drama genre: the professional plot, the sentimental plot, and the medical cases plot. In the context of medical dramas, content analysis can be conducted by assigning isotopies to segments, i.e. portions of video “characterized both by space–time–action continuity and invariance in the thematic-narrative elements” (Rocchi and Pescatore 2022: 3). This poses a challenge for automated approaches, as modern segmentation algorithms are not effective in identifying units that are relevant for the three isotopies. Additionally, coding requires trained annotators with a significant degree of expert knowledge and a good understanding of content analysis. Recognizing the complexity of the task and the need for more effective strategies, we experiment with unimodal and multimodal transformer-based models to evaluate the possibility of streamlining the content analysis process for medical dramas. With this objective, we formulate the following research questions:
 
@@ -106,7 +106,7 @@ In the field of media studies, content analysis is an established methodology fo
 
 To answer our research questions, we first create a multimodal corpus by combining subtitles and keyframes extracted from 17 seasons of Grey’s Anatomy (2005-), one of the longest-running medical drama series. Three deep learning models, namely CLIP, BERT, and MMBT, are trained using this corpus to explore the impact of different modalities on the identification of the isotopies. Additionally, we investigate two different approaches to the classification problem: a multiclass approach, which considers all isotopies simultaneously, and a one-vs-the-rest approach, which identifies one isotopy at the time. The results of the experiments are promising, with the multiclass multimodal approach obtaining an F1 score of 0.723. Furthermore, our findings suggest a relationship between the two approaches and the modalities involved, as well as differences in terms of the contribution of the individual modalities.
 
-## 2. Related Work
+### 2. Related Work
 
 With its ability to engage several human faculties at once, audiovisual content can convey information in a more multifaceted way compared to static images or text. However, the addition of the time element through shots and scenes makes the task of understanding the content of a video complex. One of the biggest challenges in the fields of natural language processing and computer vision is developing the ability for machines to analyze and summarize audiovisual products, making them more searchable and accessible (Tapaswi 2016: 3). As multimodal data often represents an object from different viewpoints, which can be complementary in contents, it can potentially be more informative than unimodal data. However, there are also instances where the modalities end up competing with each other, causing multimodal models to underperform compared to the unimodal ones (Huang et al. 2021: 10944).
 
@@ -118,7 +118,7 @@ However, it is actually an open question whether training a model using multiple
 
 To the best of our knowledge, this is the first work on narrative classification for the medical drama genre. In the context of cinema, a similar work is the Movie Narrative Dataset (MND), introduced by Liu et al. (2023). MND consists of 6,448 annotated scenes from 45 movies, manually labeled by multiple annotators into 15 key story elements. To benchmark the task of classifying scenes based on their narrative function, the authors of MND utilized an XGBoost classifier trained on temporal features and character co-occurrence patterns. The classifier obtained an F1 score of 0.31, which, while still leaving room for improvement, is statistically significant and outperforms a static baseline classifier. Unlike Liu et al. (2023), we adopt a single-frame vision-and-language approach. This choice is motivated by the previously mentioned studies showing the potential of using only a single frame (Lei et al. 2022, Buch et al. 2022). Additionally, the decision to consider a single frame is influenced by the substantial increase in computational costs associated with analyzing multiple frames (Lei et al. 2022: 11), which presents significant challenges in terms of resource requirements and processing time.
 
-## 3. Dataset
+### 3. Dataset
 
 The present work builds upon the Medical Dramas Dataset introduced by Rocchi and Pescatore (2022: 2-3). For the purpose of the experiments, we extracted 17 seasons of annotated data from the TV show Grey’s Anatomy (2005-), for a total of 367 episodes and 244 hours of video. Isotopy assignment, also referred to as ‘coding’, was conducted according to a three-step content analysis protocol. First, three isotopies underlying the medical drama genre were identified: the medical cases plot, the professional plot, and the sentimental plot. According to Pescatore and Rocchi (2019: 111-112), the isotopies can be defined as follows:
 
@@ -152,7 +152,7 @@ Labels were also preprocessed as part of the data preparation, with the original
 
 The resulting corpus contains 276,357 subtitles, which are grouped into 16,989 labeled segments. The corpus has a total of 2,260,655 tokens (38,629 types) and the mean length of a subtitle is 8.430 ± 3.921 tokens. Each segment consists of 1 to 74 subtitles, and about 95.7% of the segments (16,272) contains up to 37 subtitles. The dataset is imbalanced, with the sentimental plot class being the most represented out of the three (8,082 positive instances). The least represented class is the professional plot, with 3,299 positive instances, while the medical cases class has a total of 5,608 positive instances.
 
-## 4. Experiments
+### 4. Experiments
 
 To address our research questions, we explore two different classification approaches to determine which one is better suited for the problem at hand: the first approach is to employ a single multiclass classifier, while the second involves using the one-vs-the-rest approach. Although neural networks can handle the multiclass problem by directly predicting one of the three possible target classes, using the one-vs-the-rest (OvR) strategy may be beneficial in certain situations. This approach, also known as one-vs-all (OvA), consists in decomposing the task into n binary classifiers, each trained to distinguish between one class and the rest. The final prediction is made by selecting the class associated with the classifier that outputs the highest probability (Aly 2005: 1-4). We investigate the multiclass and one-vs-the-rest approaches for both unimodal and multimodal settings. For the multiclass approach, we first fine-tune and evaluate a unimodal textual and a unimodal visual model, and then a multimodal one. For the one-vs-the-rest approach, we do the same for each unimodal binary sub-problem, and then repeat the problem decomposition approach in the multimodal setting as well.
 
@@ -180,7 +180,7 @@ Table 3: Validation F1 scores of the best models. (e) refers to the number of ep
 
 Table 4: Test F1 scores of the best models. (e) refers to the number of epochs.
 
-## 5. Discussion
+### 5. Discussion
 
 As for RQ1, the answer is not straightforward. The approach which resulted in the best-performing model is the direct multiclass approach. Specifically, multiclass MMBT trained over 3 epochs achieved the highest macro-averaged F1 score on the test set: 0.723. This result could be attributed to the ability of the multiclass MMBT approach to better handle correlations between different classes, a feature not captured by the one-vs-the-rest approach, which treats each class independently. It is possible that the added visual information allows MMBT to disambiguate instances more effectively than the multiclass BERT model, resulting in one-vs-the-rest being more effective for BERT: F1 0.686 for one-vs-the-rest compared to 0.672 for multiclass. CLIP also benefits from the one-vs-the-rest approach. This could be due to the fact that one-vs-the-rest is more suitable for unimodal models, as a similar trend also arises when it comes to multiclass BERT compared to one-vs-the-rest BERT.
 
@@ -194,7 +194,7 @@ In summary, one-vs-the-rest appears to be more effective for unimodal models, wh
 
 In the broader context, automated content analysis for isotopy identification, a domain which has been previously unexplored, can greatly benefit from multimodal approaches. Despite some limitations, these results also indicate the potential of single-frame approaches for the task of multimodal video classification.
 
-## 6. Conclusions
+### 6. Conclusions
 
 This study examined three research questions to evaluate various methods for automatic isotopy identification in the context of TV medical dramas. The first research question focused on comparing, for all models, the performance of a direct multiclass approach versus a one-vs-the-rest approach. The second research question aimed to determine the most informative modality for the classification task. The third research question involved investigating whether the inclusion of keyframes in addition to subtitles resulted in better performance compared to just using the subtitles. In order to answer these research questions, we created a multimodal corpus by expanding on the Medical Dramas Dataset introduced in Rocchi and Pescatore (2022: 2-3). 17 seasons of annotated data were extracted from the TV show Grey’s Anatomy (2005-), for a total of 367 episodes and 244 hours of video. Textual features were extracted by temporally aligning the subtitles with the segments, while visual features were obtained by extracting a frame, referred to as a keyframe.
 
@@ -202,7 +202,7 @@ The findings from this work are promising, indicating that it is indeed possible
 
 The potential for future work is vast, as there are many aspects that could be further improved to enhance the performance of the models. For example, future research could delve into a more systematic methodology for frame selection, which in this study was limited to only the midframes of the segments. Apart from investigating more systematic approaches for frame selection, additional avenues for further research might include the adoption of a dual-stream model as an alternative to the single-stream architecture of MMBT. Existing research suggests that dual-stream models can obtain better results thanks to their co-attention mechanism, which enables them to handle complex relationships between the modalities (Du et al. 2022: 5437). Moreover, cross-lingual transfer could be explored by experimenting with multilingual transformer-based models like mBERT (Devlin et al. 2018) or XLM-RoBERTa (Conneau et al. 2020). Given the availability of subtitles in other languages, this approach could also lead to improvements and open up the possibility of analyzing other shows pertaining to the medical drama genre.
 
-## References
+### References
 
 Aly, Mohamed (2005). Survey on Multiclass Classification Methods. Technical Report. Pasadena: California Institute of Technology.
 
@@ -270,7 +270,7 @@ Zahiri, Sayyed and Jinho Choi (2017). "Emotion Detection on TV Show Transcripts 
 
 Zhu, Linchao and Yi Yang (2020). “ActBERT: Learning Global-Local Video-Text Representations.” In Proceedings of the 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition, 8746-8755. Washington: IEEE Computer Society. .
 
-## TV shows
+### TV shows
 
 Friends (1994-2004)
 
