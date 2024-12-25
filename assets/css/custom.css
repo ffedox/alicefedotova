@@ -5,13 +5,3 @@ h1 {
   h2 {
     font-size: 2.5rem; /* Adjust the size as needed */
   }
-  h3 {
-    font-size: 2rem; /* Adjust the size as needed */
-  }
-
-  /* Adjust the size of the profile picture */
-.avatar {
-    width: 150px; /* Set the desired width */
-    height: 150px; /* Set the desired height */
-    border-radius: 50%; /* Ensures the image is circular */
-  }
