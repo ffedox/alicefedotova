@@ -185,4 +185,4 @@ awards:
 
 ## About Me
 
-Hi, I'm Alice! I'm an independent researcher and freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
+Hi, I'm Alice! I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
