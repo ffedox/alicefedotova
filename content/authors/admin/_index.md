@@ -187,23 +187,24 @@ awards:
 
 Hi, I'm Alice! I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
 
-
 <div class="container">
   <div class="row justify-content-between">
-    <!-- Experience Section -->
     <div class="col">
       <h3>Experience</h3>
         <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Fellow, University of Bologna (2023–2024)</li>
-          <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Intern, University of Bologna (2016–2020)</li>
+        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>>Research Fellow, 2023-2024</li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></span></li>
+        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Intern, 2021-2022</li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
         </ul>
     </div>
-    <!-- Education Section -->
     <div class="col">
       <h3>Education</h3>
         <ul class="fa-ul">
-          <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MA in Translation Technology, University of Bologna (2021–2023)</li>
-          <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BA in Languages and Technologies for Intercultural Communication, University of Bologna (2017–2020)</li>
+        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MA in Translation Technology, 2023</li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
+        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BA in Languages and Technologies for Intercultural Communication, 2013</li>
+        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
         </ul>
     </div>
   </div>
