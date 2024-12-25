@@ -185,4 +185,4 @@ awards:
 
 ## About Me
 
-Alice Fedotova is an independent researcher and a freelance consultant in the field of Natural Language Processing. She is a former Research Fellow at the University of Bologna, where she worked on Automatic Speech Recognition and multimodal Transformers. Her research interests include Information Extraction, Language Resource Creation, and Multimodality. She is a member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
+Hi, I'm Alice! I'm an independent researcher and freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the University of Bologna, where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
