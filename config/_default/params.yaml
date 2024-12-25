@@ -13,9 +13,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    org_name: 'Alice Fedotova | About Me'
+    description: 'Independent researcher and consultant specializing in NLP. Former Research Fellow at the University of Bologna, where I worked on ASR and multimodal Transformers.'
+    twitter: 'fedotova_alice'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
