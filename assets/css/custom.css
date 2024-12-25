@@ -1,17 +1,23 @@
 .experience-education-container {
     margin: auto;
-    padding: 2rem 0;
-    max-width: 1400px; /* Reduce width for better alignment with the above text */
+    padding-top: 2rem;
+    max-width: 1200px; /* Adjust width to match the "About Me" text */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align container to the left */
   }
   
   .experience-education-container .row {
     display: flex;
-    justify-content: flex-start; /* Align with the left margin of the text above */
-    gap: 6rem; /* Increased space between columns */
+    justify-content: space-between;
+    width: 100%; /* Ensure the row spans the full width of the container */
+    gap: 4rem; /* Adjust spacing between columns */
+    margin-top: 2rem; /* Add space between sections */
   }
   
   .experience-education-container .col {
-    flex: 1;
+    flex: 1; /* Allow columns to take equal space */
+    min-width: 45%; /* Ensure each column takes up significant horizontal space */
   }
   
   .section-title {
@@ -27,7 +33,7 @@
   
   .fa-ul li {
     display: flex;
-    align-items: center; /* Keep icon and text on the same line */
+    align-items: flex-start; /* Keep items aligned */
     margin-bottom: 1rem; /* Adjust spacing between list items */
   }
   
@@ -44,6 +50,6 @@
   .item-subtitle {
     font-size: 0.9rem;
     color: inherit;
-    margin-left: 2rem; /* Add space below the title text */
+    margin-top: 0.25rem;
   }
   
