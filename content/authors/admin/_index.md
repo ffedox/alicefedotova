@@ -188,26 +188,47 @@ awards:
 Hi, I'm Alice! I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
 
 <div class="container">
-  <div class="row justify-content-between">
+  <div class="row">
     <div class="col">
-      <h3>Experience</h3>
+      <h3 class="section-title">Experience</h3>
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Fellow, 2023-2024</li>
-        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
-        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Research Intern, 2021-2022</li>
-        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
+        <li>
+          <span class="fa-li"><i class="fas fa-briefcase"></i></span>
+          <div>
+            <strong>Research Fellow, 2023-2024</strong>
+            <div class="organization">University of Bologna</div>
+          </div>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fas fa-briefcase"></i></span>
+          <div>
+            <strong>Research Intern, 2021-2022</strong>
+            <div class="organization">University of Bologna</div>
+          </div>
+        </li>
       </ul>
     </div>
     <div class="col">
-      <h3>Education</h3>
+      <h3 class="section-title">Education</h3>
       <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MA in Translation Technology, 2023</li>
-        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BA in Languages and Technologies for Intercultural Communication, 2013</li>
-        <li><span class="portrait-title"><h3>University of Bologna</h3></li>
+        <li>
+          <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+          <div>
+            <strong>MA in Translation Technology, 2023</strong>
+            <div class="organization">University of Bologna</div>
+          </div>
+        </li>
+        <li>
+          <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+          <div>
+            <strong>BA in Languages and Technologies for Intercultural Communication, 2013</strong>
+            <div class="organization">University of Bologna</div>
+          </div>
+        </li>
       </ul>
     </div>
   </div>
 </div>
+
 
 {style="text-align: justify;"}
