@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Researching and developing tools for processing unimodal and multimodal data, with a focus on reproducibility and insights inspired by linguistics.
+        As a language technology researcher, I explore new solutions for addressing the complexities of unimodal and multimodal data, informed by linguistic insights and a dedication to reproducibility.
 
         In my recent work I designed pipelines for the creation of language resources, improved transcription accuracy for spoken data, and leveraged text and vision transformers to address complex multimodal challenges.
 
