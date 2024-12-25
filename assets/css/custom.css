@@ -61,3 +61,11 @@
   color: inherit;
   margin-top: 0.25rem;
 }
+
+.centered-text {
+  text-align: center;
+}
+
+.smaller-font {
+  font-size: 0.9em; /* Adjust the scale as needed */
+}
