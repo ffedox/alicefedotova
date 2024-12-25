@@ -28,7 +28,7 @@ publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
 publication: "In *International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*"
-publication_short: "In *LREC-COLING 2024*"
+publication_short: "In *International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*"
 
 abstract: >
   We develop novel annotation guidelines for sentence-level subjectivity detection, which are not limited to language-specific cues. We use our guidelines to collect NewsSD-ENG, a corpus of 638 objective and 411 subjective sentences extracted from English news articles on controversial topics. Our corpus paves the way for subjectivity detection in English and across other languages without relying on language-specific tools, such as lexicons or machine translation. We evaluate state-of-the-art multilingual transformer-based models on the task in mono-, multi-, and cross-language settings. For this purpose, we re-annotate an existing Italian corpus. We observe that models trained in the multilingual setting achieve the best performance on the task.
