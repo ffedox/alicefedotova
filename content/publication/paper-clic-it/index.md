@@ -38,8 +38,8 @@ featured: true
 # - name: ""
 #   url: ""
 url_pdf: https://ceur-ws.org/Vol-3878/41_main_long.pdf
-url_code: ''
-url_dataset: ''
+url_code: 'https://github.com/ffedox/eptic-pipeline-2025'
+url_dataset: 'https://corpora.dipintra.it/eptic/'
 url_poster: ''
 url_project: ''
 url_slides: ''
