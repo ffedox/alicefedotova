@@ -129,13 +129,14 @@ For the purpose of aligning the subtitles with the data obtained from the Medica
 | id | segm_start | segm_end | pp | sp | mc | img_name |
 | --- | --- | --- | --- | --- | --- | --- |
 | S13E01_0 | 00:00:49 | 00:02:18 | 0 | 6 | 0 | S13E01_0.jpg |
-| Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. | Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. | Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. | Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. | Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. | Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. | Meredith: Don't you wish you could just take it back... That thing you said, that thing you did. […] We can't undo the past. `Cause the future keeps coming at us. |
+| Meredith: Don't you wish you could just take it back... |
 | id | segm_start | segm_end | pp | sp | mc | img_name |
 | S13E01_1 | 00:02:18 | 00:02:36 | 0 | 2 | 4 | S13E01_1.jpg |
-| [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! | [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! | [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! | [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! | [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! | [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! | [Siren wails] Isaac: What do we got? We got a male, mid 20s. […] We'll need a CT. All right, let's get him to Trauma One. Let's go. Page Avery! |
+| [Siren wails] Male, mid 20s. Need a CT. Page Avery! |
 | id | segm_start | segm_end | pp | sp | mc | img_name |
 | S13E01_2 | 00:02:36 | 00:03:18 | 0 | 6 | 0 | S13E01_2.jpg |
-| Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? | Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? | Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? | Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? | Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? | Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? | Two champagnes. You got it. I thought you were dancing with Maggie. […] Take a breath. What happened to DeLuca? |
+| Two champagnes. What happened to DeLuca? |
+
 Table 1: Some instances from the resulting corpus. The text obtained from the subtitles has been shortened for displaying purposes.
 
 [FIGURE_1.jpg]
@@ -160,7 +161,7 @@ For the multimodal setting, we use the Multimodal Bitransformer (MMBT) model. In
 
 As for the textual encoder, we again use bert-base-uncased so as to be able to compare the performance of MMBT and BERT. We fine-tune the MMBT architecture by exploring epochs ∈ [1, 2, 3] with a batch size of 8 and a gradient accumulation of 20 steps to reduce memory usage. For optimization, we employ the MADGRAD optimizer (Defazio and Jelassi 2022) with a learning rate of 2e-4. As for BERT, we adhere to the preprocessing and parameters used in the unimodal textual setting. Given that MMBT is largely based on BERT's architecture, the num_labels parameter and the loss functions are also configured in the same way as BERT. We maintain these choices for the unimodal visual model based on CLIP, with the exception that we do not use the textual encoder. As for the CLIP-based model, we leave RN50x4 as the feature extractor and we follow Wei et al. (2022) in using a batch size of 16.
 
-|  |  | Multiclass | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest |
+|  |  | Multiclass | OvR | OvR | OvR | OvR | OvR | OvR | OvR |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Model | (e) | All | (e) | PP | (e) | SP | (e) | MC | All |
 | CLIP | (3) | 0.553 | (3) | 0.444 | (2) | 0.710 | (3) | 0.593 | 0.582 |
@@ -168,7 +169,7 @@ As for the textual encoder, we again use bert-base-uncased so as to be able to c
 | MMBT | (3) | 0.736 | (3) | 0.580 | (3) | 0.825 | (3) | 0.741 | 0.715 |
 Table 3: Validation F1 scores of the best models. (e) refers to the number of epochs.
 
-|  |  | Multiclass | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest | One-vs-the-rest |
+|  |  | Multiclass | OvR | OvR | OvR | OvR | OvR | OvR | OvR |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Model | (e) | All | (e) | PP | (e) | SP | (e) | MC | All |
 | CLIP | (3) | 0.536 | (3) | 0.443 | (2) | 0.696 | (3) | 0.559 | 0.566 |
