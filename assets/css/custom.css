@@ -65,3 +65,12 @@
 body {
     font-size: 18px; /* Adjust to your desired size */
 }
+
+a {
+  color: #586ee2; /* Set the default color */
+  text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
