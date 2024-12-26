@@ -11,7 +11,7 @@ last_name: Fedotova
 
 # Status emoji
 status:
-  icon: 🦝
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -186,7 +186,7 @@ awards:
 
 ## Hi, I'm Alice! 👋🏻
 
-I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and multimodal Transformers. My research interests include Information Extraction, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
+I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the [University of Bologna](https://www.unibo.it/it), where I worked on Automatic Speech Recognition and Multimodal Content Analysis. My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of [AILC](https://www.ai-lc.it/en/), the Italian Association of Computational Linguistics.
 
 <div class="experience-education-container">
   <div class="row">
