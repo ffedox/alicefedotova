@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: "About Me"
-date: 2022-10-24
+date: 2024-12-26
 type: landing
 
 design:
