@@ -137,18 +137,3 @@ html.dark #site-header {
   color: #cccccc !important; /* Optional: hover state for contrast */
 }
 
-.resume-biography {
-  padding: 3rem 0; /* Reduced padding from 6rem to 3rem */
-}
-
-.hbb-section {
-  background-color: #000;
-  background-image: url('https://alicefedotova.com/media/stacked-peaks.svg');
-  background-size: contain; /* Try 'contain' to ensure no overflow */
-  background-position: center; /* Aligns to the center */
-  filter: brightness(1); /* Check if this is necessary */
-  padding: 0;
-  margin: 0;
-  height: auto; /* Let content dictate height */
-  min-height: 0; /* Prevent default large heights */
-}
