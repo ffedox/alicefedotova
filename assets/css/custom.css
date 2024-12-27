@@ -144,13 +144,21 @@ html.dark #site-header {
 }
 
 #papers .home-section-bg {
-  background-color: #23252f;
+  background-color: #272935;
 }
 
 #talks .home-section-bg {
+  background-color: #272935;
+}
+
+#section-markdown .home-section-bg {
   background-color: #23252f;
 }
 
-#talks .home-section-bg {
+#section-collection .home-section-bg {
+  background-color: #23252f;
+}
+
+#section-news .home-section-bg {
   background-color: #23252f;
 }
