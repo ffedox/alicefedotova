@@ -181,5 +181,5 @@ body:has(header.landing-header) footer.container {
 }
 
 #section-resume-biography-3 {
-  padding-bottom: 50px; /* Adjust the value to create the desired space */
+  margin-bottom: 50px; /* Adds space below the section */
 }
