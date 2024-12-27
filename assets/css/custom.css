@@ -155,10 +155,6 @@ html.dark #site-header {
   background-color: #23252f;
 }
 
-#section-markdown {
-  padding-bottom: 100px; /* Add 100px of space at the bottom */
-}
-
 #section-collection .home-section-bg {
   background-color: #23252f;
 }
@@ -182,4 +178,8 @@ body:has(header.landing-header) footer.container {
   width: 0; /* Ensures it doesn't occupy space */
   height: 0; /* Ensures it doesn't occupy space */
   overflow: hidden; /* Hides any content that overflows */
+}
+
+#section-resume-biography-3 {
+  padding-bottom: 50px; /* Adjust the value to create the desired space */
 }
