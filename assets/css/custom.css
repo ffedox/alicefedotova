@@ -65,3 +65,11 @@
 body {
     font-size: 18px; /* Adjust to your desired size */
 }
+
+.portrait-title {
+  margin-top: 2rem; /* Adjust the value as needed */
+}
+
+.network-icon {
+  margin-top: 2rem; /* Adjust the value to match the spacing of `.portrait-title` */
+}
