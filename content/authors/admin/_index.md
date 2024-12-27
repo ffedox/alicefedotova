@@ -190,7 +190,7 @@ I'm an independent researcher and a freelance consultant specializing in Natural
 
 My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
 
-I wanted to add another line to test what would happen. Test. testt test etstet
+You can find my CV [here](https://github.com/alicefedotova/static/uploads/resume.pdf) for more details about my background and experience.
 
 <div class="experience-education-container">
   <div class="row">
