@@ -67,11 +67,11 @@ body {
 }
 
 .portrait-title {
-  margin-top: 2rem; /* Adjust the value as needed */
+  margin-top: 4rem; /* Adjust the value as needed */
 }
 
 .network-icon {
-  margin-top: 2rem; /* Adjust the value to match the spacing of `.portrait-title` */
+  margin-top: 4rem; /* Adjust the value to match the spacing of `.portrait-title` */
 }
 
 .avatar-wrapper img.avatar {
