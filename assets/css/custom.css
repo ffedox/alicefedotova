@@ -142,3 +142,7 @@ html.dark #site-header {
   margin-bottom: -5rem; /* Moves the next section closer */
   padding: 0; /* Ensures no padding adds extra space */
 }
+
+#papers .home-section-bg {
+  background-color: #272935;
+}
