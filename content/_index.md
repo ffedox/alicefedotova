@@ -38,7 +38,7 @@ sections:
 
         My research explores emerging and fundamental challenges in the field of language technology, combining linguistic insights with reproducible methods to address the complexities of textual, spoken and multimodal data.
 
-        Recent projects include designing pipelines for the construction of corpora, improving multilingual speech recognition for verbatim transcription, and adapting multimodal transformers for automatic media analysis.
+        My recent projects include designing pipelines for the construction of corpora, improving multilingual speech recognition for verbatim transcription, and adapting multimodal transformers for automatic media analysis.
 
         Currently investigating Task 1 of <a href="https://erisk.irlab.org/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">CLEF eRisk 2025</a>. Open to collaborations! 🔍
     design:
