@@ -1,6 +1,6 @@
 ---
 title: Linear and Logistic Regression
-summary: In Data Analysis and Computational Linguistics. Held at the Department of Interpreting and Translation (DIT), University of Bologna.
+summary: In Data Analysis and Machine Learning. Held at the Department of Interpreting and Translation (DIT), University of Bologna.
 date: 2024-04-24
 type: docs
 math: false
