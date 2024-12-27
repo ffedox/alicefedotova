@@ -138,5 +138,7 @@ html.dark #site-header {
 }
 
 .resume-biography {
-  padding: -5rem 0; /* Reduced padding from 6rem to 3rem */
+  margin-top: -5rem; /* Moves the section closer to the previous one */
+  margin-bottom: -5rem; /* Moves the next section closer */
+  padding: 0; /* Ensures no padding adds extra space */
 }
