@@ -142,8 +142,13 @@ html.dark #site-header {
 }
 
 .hbb-section {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 3rem;
-  padding-bottom: 3rem; /* Adjust as needed */
+  background-color: #000;
+  background-image: url('https://alicefedotova.com/media/stacked-peaks.svg');
+  background-size: contain; /* Try 'contain' to ensure no overflow */
+  background-position: center; /* Aligns to the center */
+  filter: brightness(1); /* Check if this is necessary */
+  padding: 0;
+  margin: 0;
+  height: auto; /* Let content dictate height */
+  min-height: 0; /* Prevent default large heights */
 }
