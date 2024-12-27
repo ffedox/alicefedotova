@@ -190,7 +190,7 @@ I'm an independent researcher and a freelance consultant specializing in Natural
 
 My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
 
-For more details about my background and experience, you can check out my CV <a href="https://github.com/ffedox/alicefedotova/blob/2f46f704df9ac3e6f64debe4608a7fef08c186d8/static/uploads/resume.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">here</a>. Feel free to <a href="mailto:alice.fedotova2@unibo.it" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">reach out</a> — I'd love to connect and hear from you!
+For more details about my background and experience, you can find my CV <a href="https://github.com/ffedox/alicefedotova/blob/2f46f704df9ac3e6f64debe4608a7fef08c186d8/static/uploads/resume.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">here</a>. Feel free to <a href="mailto:alice.fedotova2@unibo.it" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">reach out</a> — I'd love to connect and hear from you!
 
 
 <div class="experience-education-container">
