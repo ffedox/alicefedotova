@@ -78,14 +78,14 @@ work:
 #  - Benchmarks and Evaluation
 
 education:
-  - area: MA in Translation Technology
+  - area: MA in Translation and Technology
     institution: University of Bologna
     date_start: 2021-10-01
     date_end: 2023-07-13
     summary: |
       Final Grade: 110/110 with Honors
 
-      Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
+      Curriculum of the Specialized Translation MA. Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
 
       Courses included:
       - Natural Language Processing
