@@ -186,7 +186,9 @@ awards:
 
 ## Hi, I'm Alice! 👋🏻
 
-I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow at the <a href="https://www.unibo.it/it" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">University of Bologna</a>, where I worked on Automatic Speech Recognition and Multimodal Content Analysis. My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
+I'm an independent researcher and a freelance consultant specializing in Natural Language Processing. Previously, I was a Research Fellow and a Research Intern at the <a href="https://www.unibo.it/it" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">University of Bologna</a>, where I worked on Automatic Speech Recognition and Multimodal Content Analysis. My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
+
+I wanted to add another line to test what would happen. Test. testt test etstet
 
 <div class="experience-education-container">
   <div class="row">
