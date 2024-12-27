@@ -61,7 +61,7 @@
   color: inherit;
   margin-top: 0.25rem;
 }
-
+s
 body {
     font-size: 18px; /* Adjust to your desired size */
 }
@@ -72,4 +72,9 @@ body {
 
 .network-icon {
   margin-top: 2rem; /* Adjust the value to match the spacing of `.portrait-title` */
+}
+
+.avatar-wrapper img.avatar {
+  width: 300px; /* Adjust the size as needed */
+  height: 300px; /* Ensure it stays square */
 }
