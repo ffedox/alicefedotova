@@ -5,7 +5,7 @@ date: 2024-04-24
 type: docs
 math: false
 tags:
-  - Regression
+  - Regression Analysis
 image:
   caption: ''
 ---
