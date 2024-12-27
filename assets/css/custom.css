@@ -155,6 +155,10 @@ html.dark #site-header {
   background-color: #23252f;
 }
 
+#section-markdown {
+  padding-bottom: 100px; /* Add 100px of space at the bottom */
+}
+
 #section-collection .home-section-bg {
   background-color: #23252f;
 }
