@@ -171,7 +171,7 @@ body:has(header.landing-header) footer.container {
   margin-top: 2em;
 }
 
-.grid {
+.grid.grid-cols-1.md\:grid-cols-2.gap-4.justify-between.mt-6.dark\:text-gray-300 {
   visibility: hidden; /* Makes it invisible */
   pointer-events: none; /* Prevents interaction */
   position: absolute; /* Removes it from the flow */
