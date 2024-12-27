@@ -86,9 +86,22 @@ body {
 a {
   color: #5872ff;
   text-decoration: none;
-  background-color: transparent;
 }
+
 a:hover {
   color: #5872ff;
   text-decoration: underline;
+}
+
+/* Do not apply the blue color to these specific areas */
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, 
+.category a, .title a, .subtitle a {
+    color: inherit; /* Inherit color from parent */
+    text-decoration: none; /* No underline */
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, 
+.category a:hover, .title a:hover, .subtitle a:hover {
+    text-decoration: none; /* No underline on hover */
+    color: inherit; /* Inherit hover color */
 }
