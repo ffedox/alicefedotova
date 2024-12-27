@@ -162,3 +162,7 @@ html.dark #site-header {
 #news .home-section-bg {
   background-color: #23252f;
 }
+
+footer.container {
+  background-color: #23252f;
+}
