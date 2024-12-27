@@ -166,3 +166,7 @@ html.dark #site-header {
 body:has(header.landing-header) footer.container {
   background-color: #23252f;
 }
+
+.mb-6.text-3xl.font-bold.text-gray-900.dark\:text-white {
+  margin-top: 2em;
+}
