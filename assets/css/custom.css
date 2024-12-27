@@ -82,3 +82,13 @@ body {
 .avatar-wrapper {
   margin-left: 20px; /* Adjust this value to align with subtitles */
 }
+
+a {
+  color: #5872ff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #5872ff;
+  text-decoration: underline;
+}
