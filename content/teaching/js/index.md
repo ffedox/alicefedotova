@@ -10,4 +10,4 @@ image:
   caption: ''
 ---
 
-[Sketch Engine]https://www.sketchengine.eu/) tutorial. A tutorial on Sketch Engine.
+[Sketch Engine](https://www.sketchengine.eu/) tutorial. A tutorial on Sketch Engine.
