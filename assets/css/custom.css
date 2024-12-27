@@ -75,6 +75,10 @@ body {
 }
 
 .avatar-wrapper img.avatar {
-  width: 300px; /* Adjust the size as needed */
-  height: 300px; /* Ensure it stays square */
+  width: 250px; /* Adjust the size as needed */
+  height: 250px; /* Ensure it stays square */
+}
+
+.avatar-wrapper {
+  margin-left: -20px; /* Adjust this value to align with subtitles */
 }
