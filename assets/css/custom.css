@@ -88,8 +88,22 @@ body {
   order: 1;
 }
 
+/* Avatar wrapper */
 .avatar-wrapper {
-  margin-left: 20px; /* Adjust this value to align with subtitles */
+  flex-shrink: 0; /* Prevent the avatar from resizing */
+  width: 150px; /* Fixed width for avatar */
+  height: 150px; /* Fixed height for avatar */
+  overflow: hidden; /* Clip overflowing parts */
+  border-radius: 50%; /* Circular shape for avatar */
+  position: relative; /* Ensures no absolute positioning issues */
+}
+
+/* Avatar image */
+.avatar {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Proper scaling for the image */
 }
 
 a {
@@ -146,8 +160,12 @@ html.dark #site-header {
   color: #cccccc !important; /* Optional: hover state for contrast */
 }
 
-/* Ensure the parent container uses Flexbox */
+/* Parent container setup */
 #profile-container {
   display: flex;
-  flex-direction: column; /* Default to vertical layout */
+  align-items: flex-start; /* Align items to the top */
+  justify-content: flex-start; /* Align items to the left */
+  flex-direction: row; /* Ensure a horizontal layout */
+  gap: 2rem; /* Add spacing between avatar and content */
+  position: relative;
 }
