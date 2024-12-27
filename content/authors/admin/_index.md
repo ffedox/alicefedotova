@@ -31,7 +31,7 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alice.fedotova7@gmail.com'
+    url: 'mailto:alice.fedotova2@unibo.it'
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/fedotova_alice
@@ -190,7 +190,7 @@ I'm an independent researcher and a freelance consultant specializing in Natural
 
 My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
 
-You can find my CV [here](https://github.com/alicefedotova/static/uploads/resume.pdf) for more details about my background and experience.
+Check out [my CV](https://github.com/alicefedotova/static/uploads/resume.pdf) and feel free to [reach out](alice.fedotova2@unibo.it) for more details about my background and experience.
 
 <div class="experience-education-container">
   <div class="row">
