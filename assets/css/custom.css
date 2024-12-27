@@ -114,8 +114,24 @@ h1 a:hover, h2 a:hover, h3 a:hover,
   color: #ffffff; /* Changes the text color for better visibility on the blue background */
 }
 
+/* Default (Light Mode) */
 #site-header {
-  background-color: #5872ff; /* Sets the background color to match the navbar */
-  color: #ffffff; /* Adjusts text color for better contrast */
-  border: none; /* Removes any unwanted borders if present */
+  background-color: #5872ff;
+  color: #ffffff; /* Text color for contrast */
+}
+
+/* Dark Mode */
+html.dark #site-header {
+  background-color: #5872ff; /* Same color or adjust as needed */
+  color: #ffffff; /* Ensure text contrast in dark mode */
+}
+
+/* Adjust for Navbar Links */
+#site-header .nav-link {
+  color: #ffffff;
+}
+
+/* Dark Mode Navbar Links */
+html.dark #site-header .nav-link {
+  color: #ffffff; /* Optional: Change if dark mode needs a distinct color */
 }
