@@ -32,7 +32,7 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 About Me'
+      title: '📚 My Research'
       subtitle: ''
       text: |-
 
