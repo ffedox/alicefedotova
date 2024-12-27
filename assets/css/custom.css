@@ -170,3 +170,12 @@ body:has(header.landing-header) footer.container {
 #news .mb-6.text-3xl.font-bold.text-gray-900.dark\:text-white {
   margin-top: 2em;
 }
+
+.grid {
+  visibility: hidden; /* Makes it invisible */
+  pointer-events: none; /* Prevents interaction */
+  position: absolute; /* Removes it from the flow */
+  width: 0; /* Ensures it doesn't occupy space */
+  height: 0; /* Ensures it doesn't occupy space */
+  overflow: hidden; /* Hides any content that overflows */
+}
