@@ -137,3 +137,6 @@ html.dark #site-header {
   color: #cccccc !important; /* Optional: hover state for contrast */
 }
 
+.resume-biography {
+  padding: 8rem 0; /* Reduced padding from 6rem to 3rem */
+}
