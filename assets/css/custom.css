@@ -80,5 +80,5 @@ body {
 }
 
 .avatar-wrapper {
-  margin-left: -10px; /* Adjust this value to align with subtitles */
+  margin-left: 10px; /* Adjust this value to align with subtitles */
 }
