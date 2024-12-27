@@ -163,6 +163,6 @@ html.dark #site-header {
   background-color: #23252f;
 }
 
-footer.container {
+body:has(header.landing-header) footer.container {
   background-color: #23252f;
 }
