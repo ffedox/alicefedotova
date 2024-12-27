@@ -40,7 +40,7 @@ sections:
 
         Recent projects include designing pipelines for the creation of language resources, improving speech recognition for verbatim transcription, and adapting multimodal transformer-based models for audiovisual content classification.
 
-        Currently investigating Task 1 of [CLEF eRisk 2025](https://erisk.irlab.org/). Open to collaborations! 🔍
+        Currently investigating Task 1 of <a href="https://erisk.irlab.org/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">CLEF eRisk 2025</a>. Open to collaborations! 🔍
     design:
       columns: '1'
   - block: collection
