@@ -136,9 +136,3 @@ html.dark #site-header {
 #site-header .nav-link:hover {
   color: #cccccc !important; /* Optional: hover state for contrast */
 }
-
-/* Ensure the parent container uses Flexbox */
-#profile-container {
-    display: flex;
-    flex-direction: column; /* Default to vertical layout */
-}
