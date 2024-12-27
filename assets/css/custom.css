@@ -136,3 +136,14 @@ html.dark #site-header {
 #site-header .nav-link:hover {
   color: #cccccc !important; /* Optional: hover state for contrast */
 }
+
+.resume-biography {
+  padding: 3rem 0; /* Reduced padding from 6rem to 3rem */
+}
+
+.hbb-section {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-bottom: 3rem; /* Adjust as needed */
+}
