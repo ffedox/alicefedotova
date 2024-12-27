@@ -190,7 +190,7 @@ I'm an independent researcher and a freelance consultant specializing in Natural
 
 My research interests include Text Mining, Language Resource Creation, and Multimodality. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
 
-You can check out my CV <a href="https://alicefedotova.com/static/uploads/resume.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">here</a> for more details about my background and experience. For any feedback or inquiries, feel free to send me <a href="mailto:alice.fedotova2@unibo.it" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">an email</a> or message me <a href="https://www.linkedin.com/in/alice-fedotova/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">on LinkedIn</a>.
+<a href="https://alicefedotova.com/static/uploads/resume.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Check out my CV</a> for more details about my background and experience. For any feedback or inquiries, feel free to get in touch!.
 
 
 <div class="experience-education-container">
