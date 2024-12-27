@@ -85,7 +85,7 @@ education:
     summary: |
       Final Grade: 110/110 with Honors
 
-      Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented one paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
+      Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
 
       Courses included:
       - Natural Language Processing
