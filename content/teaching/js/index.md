@@ -1,6 +1,6 @@
 ---
 title: Sketch Engine Crash Course
-summary: A very quick Sketch Engine tutorial
+summary: A very quick Sketch Engine tutorial. Lesson held within the Upskills project.
 date: 2023-07-17
 type: docs
 math: false
