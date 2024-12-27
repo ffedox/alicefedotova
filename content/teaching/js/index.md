@@ -1,6 +1,6 @@
 ---
 title: Sketch Engine Crash Course
-summary: A very quick intro to Sketch Engine. Tutorial held within the UpSkills' project summer school at the Petnica Science Center (PSC), Serbia.
+summary: A very quick intro to Sketch Engine. Tutorial held within the UpSkills' project summer school at the Petnica Science Center, Serbia.
 date: 2023-07-17
 type: docs
 math: false
