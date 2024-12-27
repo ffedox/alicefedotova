@@ -5,12 +5,18 @@
   align-items: flex-start;
   margin-top: -3.5rem; /* Adjust as needed */
   padding-top: 0;
+  order: 5;
 }
 
 .bio-container {
   margin-bottom: 0.1rem;
   padding: 0;
 }
+
+.bio-text {
+  order: 2; /* Move "Hi, I'm Alice!" section below avatar */
+}
+
 
 .bio-container p {
   margin-bottom: 0.1rem;
@@ -68,15 +74,18 @@ body {
 
 .portrait-title {
   margin-top: 4rem; /* Adjust the value as needed */
+  order: 3;
 }
 
 .network-icon {
   margin-top: 4rem; /* Adjust the value to match the spacing of `.portrait-title` */
+  order: 4;
 }
 
 .avatar-wrapper img.avatar {
   width: 250px; /* Adjust the size as needed */
   height: 250px; /* Ensure it stays square */
+  order: 1;
 }
 
 .avatar-wrapper {
@@ -135,4 +144,10 @@ html.dark #site-header {
 /* Adjust hover effect for navbar links */
 #site-header .nav-link:hover {
   color: #cccccc !important; /* Optional: hover state for contrast */
+}
+
+/* Ensure the parent container uses Flexbox */
+#profile-container {
+  display: flex;
+  flex-direction: column; /* Default to vertical layout */
 }
