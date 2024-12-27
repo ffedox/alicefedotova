@@ -105,3 +105,11 @@ h1 a:hover, h2 a:hover, h3 a:hover,
     text-decoration: none; /* No underline on hover */
     color: inherit; /* Inherit hover color */
 }
+
+.navbar {
+  background-color: #5872ff; /* Changes the background color of the navigation bar */
+}
+
+.nav-link {
+  color: #ffffff; /* Changes the text color for better visibility on the blue background */
+}
