@@ -1,6 +1,6 @@
 ---
-title: Learn Sketch Engine
-summary: Sketch Engine tutorial
+title: Sketch Engine Crash Course
+summary: A very quick Sketch Engine tutorial
 date: 2023-07-17
 type: docs
 math: false
