@@ -190,7 +190,7 @@ I'm an independent researcher and a freelance consultant specializing in Natural
 
 My research interests include Text Mining, Language Resource Creation, and <a href="https://amslaurea.unibo.it/id/eprint/29006/1/Alice_Fedotova_Dissertation.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Multimodality</a>. I'm also a proud member of <a href="https://www.ai-lc.it/en/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">AILC</a>, the Italian Association of Computational Linguistics.
 
-<a href="https://alicefedotova.com/files/resume.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Check out my CV</a> for more info about my background and experience. Looking forward to connecting and hearing your feedback!
+<a href="https://alicefedotova.com/files/resume.pdf" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">Check out my CV</a> for more info about my background and experience. Looking forward to connecting and hearing your <a href="https://www.admonymous.co/ffedox" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">(anonymous) feedback</a> 🙂!
 
 <div class="experience-education-container">
   <div class="row">
