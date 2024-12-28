@@ -180,21 +180,6 @@ body:has(header.landing-header) footer.container {
   overflow: hidden; /* Hides any content that overflows */
 }
 
-#section-resume-biography-3 {
-  position: relative; /* Establish context for absolute positioning */
-  padding: 6rem 0 400px; /* Add padding to the bottom for spacing */
-  min-height: 600px; /* Ensure the section has a height */
-  background-color: #272935; /* Apply the background to the entire section */
-}
-
-.home-section-bg.bg-image {
-  position: absolute; /* Position it within the section */
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: calc(100% + 200px); /* Extend background downwards */
-  z-index: -1; /* Place behind other content */
-  background-color: #272935; /* Ensure consistent background color */
-  background-size: cover; /* Ensure the image covers the area */
-  background-position: center; /* Center the background image */
+.hbb-section {
+  margin-bottom: 2rem; /* Adjust as needed */
 }
