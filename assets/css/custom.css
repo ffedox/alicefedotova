@@ -187,7 +187,7 @@ body:has(header.landing-header) footer.container {
   background-color: #272935;
 }
 
-#section-resume-skills div:contains("Hobbies") {
+#section-resume-skills {
   display: none !important;
   visibility: hidden !important;
   height: 0 !important;
