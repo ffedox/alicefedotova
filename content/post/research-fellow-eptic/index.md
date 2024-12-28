@@ -1,5 +1,5 @@
 ---
-title: ✅ Started working on EPTIC at the University of Bologna
+title: ✅ Started my work as a Research Fellow on EPTIC
 summary: Expanding the European Parliament Translation and Interpreting Corpus.
 date: 2023-10-01
 authors:
