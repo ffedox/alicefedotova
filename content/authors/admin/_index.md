@@ -46,7 +46,6 @@ profiles:
   - icon: academicons/orcid
     url: https://orcid.org/0009-0001-4850-0974
 
-
 work:
   - position: Research Fellow
     company_name: University of Bologna
@@ -55,10 +54,9 @@ work:
     date_start: 2023-10-01
     date_end: 2024-10-01
     summary: |
-      Responsibilities include:
-      - Testing Automatic Speech Recognition models for verbatim transcription
-      - Updating the European Parliament Translation and Interpreting Corpus
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Developing a pipeline to enrich the EPTIC corpus by automating transcription, sentence alignment, video alignment, and metadata extraction.
+      - Evaluating and fine-tuning ASR models for verbatim transcription, focusing on linguistic features like disfluencies and pauses.
   - position: Research Intern
     company_name: University of Bologna
     company_url: 'https://www.unibo.it/'
@@ -66,10 +64,10 @@ work:
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Responsibilities included:
+      - Investigating and comparing models for the automatic analysis of audiovisual content.
+      - Extracting textual data from subtitles and [combining it](https://github.com/TinfFoil/isotopy-identification/tree/main/subtitles) with the Medical Dramas Dataset.
+      - [Fine-tuning](https://github.com/TinfFoil/isotopy-identification/blob/main/models/multimodal_multi.py) MMBT (Multimodal Bitransformer), which resulted in a 7.6% higher F1 score commpared to the text-only models.
 
 #interests:
 #  - Information Extraction
@@ -111,45 +109,47 @@ education:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+#skills:
+#  - name: Technical Skills
+#    items:
+#      - name: Python
+#        description: ''
+#        percent: 80
+#        icon: code-bracket
+#      - name: Data Science
+#        description: ''
+#        percent: 100
+#        icon: chart-bar
+#      - name: SQL
+#        description: ''
+#        percent: 40
+##        icon: circle-stack
+#  - name: Hobbies
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+##    items:
+#      - name: Writing
+#        description: ''
+#        percent: 100
+#        icon: writing
+#      - name: Philosophy
+#        description: ''
+#        percent: 80
+#        icon: camera
+#      - name: Running
+#        description: ''
+#        percent: 60
+#        icon: person-simple-walk
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Italian
+    percent: 100
+  - name: Russian
+    percent: 85
+  - name: French
+    percent: 65
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -169,7 +169,7 @@ awards:
       Developed skills in relational databases, database design and administration, data warehousing, SQL, BI tools, ETL, NoSQL, and big data processing with Apache Spark. Completed a capstone project designing and managing a data engineering platform inspired by real-world scenarios.
   - title: 'Data Science and Big Data Analytics'
     url: https://bestr.it/award/show/TACoJWjJSDmAv1H-GRGc4Q
-    date: '2021-04-01'
+    date: '2020-04-01'
     awarder: IFOA
     icon: devicon/minitab
     summary: |
