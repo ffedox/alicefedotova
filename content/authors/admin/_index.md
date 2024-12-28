@@ -165,14 +165,14 @@ awards:
     url: https://www.coursera.org/account/accomplishments/specialization/certificate/5J3YGF32DH6A
     date: '2023-09-01'
     awarder: Coursera
-    icon: devicon/azuresqldatabase
+    icon: coursera
     summary: |
       Developed skills in relational databases, database design and administration, data warehousing, SQL, BI tools, ETL, NoSQL, and big data processing with Apache Spark. Completed a capstone project designing and managing a data engineering platform inspired by real-world scenarios.
   - title: 'Data Science and Big Data Analytics'
     url: https://bestr.it/award/show/TACoJWjJSDmAv1H-GRGc4Q
     date: '2020-04-01'
     awarder: IFOA
-    icon: devicon/minitab
+    icon: datacamp
     summary: |
       Covered methodologies in data science, advanced software solutions for analytics, management of distributed data systems, computational methods for big data, and scalable algorithms for dimensionality reduction, clustering, and ranking.
 
