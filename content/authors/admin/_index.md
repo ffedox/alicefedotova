@@ -195,7 +195,7 @@ My research interests include Text Mining, Language Resource Creation, Benchmark
 <div class="experience-education-container">
   <div class="row">
     <div class="col">
-      <h3 class="section-title">Experience</h3>
+      <h3 href="https://alicefedotova.com/experience/" style="text-decoration: none; color: inherit;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" class="section-title">Experience</h3>
       <ul class="fa-ul">
         <li>
           <span class="fa-li"><i class="fas fa-briefcase"></i></span>
@@ -214,7 +214,7 @@ My research interests include Text Mining, Language Resource Creation, Benchmark
       </ul>
     </div>
     <div class="col">
-      <h3 class="section-title">Education</h3>
+      <h3 href="https://alicefedotova.com/experience/" style="text-decoration: none; color: inherit;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'" class="section-title">Education</h3>
       <ul class="fa-ul">
         <li>
           <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
