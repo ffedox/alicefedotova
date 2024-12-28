@@ -1,3 +1,4 @@
+---
 # Display name
 title: Alice Fedotova
 
@@ -55,18 +56,20 @@ work:
     date_end: 2024-10-01
     summary: |
       Responsibilities include:
-      - Developed a pipeline to enrich EPTIC (European Parliament Translation and Interpreting Corpus) by automating transcription, sentence alignment, video alignment, and metadata extraction.
-      - Evaluated and fine-tuned ASR models for verbatim transcription, focusing on linguistic features like disfluencies and pauses.
+      - Testing Automatic Speech Recognition models for verbatim transcription
+      - Updating the European Parliament Translation and Interpreting Corpus
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Research Intern
     company_name: University of Bologna
     company_url: 'https://www.unibo.it/'
     company_logo: ''
-    date_start: 2022-07-01
-    date_end: 2023-04-01
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Investigated deep learning methods for automated isotopy identification in medical dramas to reduce annotation costs.
-      - Expanded supervised datasets and fine-tuned MMBT (Multimodal Transformer) models, achieving a 7.6% improvement in F1 scores over text-only baselines.
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 #interests:
 #  - Information Extraction
@@ -82,7 +85,7 @@ education:
     summary: |
       Final Grade: 110/110 with Honors
 
-      Curriculum of the Specialized Translation MA. Thesis on _Decoding Medical Dramas: Identifying Isotopies through Multimodal Classification_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
+      Curriculum of the Specialized Translation MA. Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
 
       Courses included:
       - Natural Language Processing
@@ -127,29 +130,31 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Writing
+      - name: Hiking
         description: ''
         percent: 60
-        icon: writing
-      - name: Philosophy
+        icon: person-simple-walk
+      - name: Cats
         description: ''
         percent: 100
-        icon: reading
-      - name: Chess
+        icon: cat
+      - name: Photography
         description: ''
         percent: 80
-        icon: chess
+        icon: camera
 
 languages:
   - name: English
     percent: 100
-  - name: Italian
-    percent: 100
-  - name: Russian
-    percent: 85
-  - name: French
-    percent: 65
+  - name: Chinese
+    percent: 75
+  - name: Portuguese
+    percent: 25
 
+# Awards.
+#   Add/remove as many awards below as you like.
+#   Only `title`, `awarder`, and `date` are required.
+#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
@@ -157,14 +162,14 @@ languages:
 awards:
   - title: 'IBM Data Engineering'
     url: https://www.coursera.org/account/accomplishments/specialization/certificate/5J3YGF32DH6A
-    date: '2023-10-04'
+    date: '2023-09-01'
     awarder: Coursera
     icon: devicon/azuresqldatabase
     summary: |
       Developed skills in relational databases, database design and administration, data warehousing, SQL, BI tools, ETL, NoSQL, and big data processing with Apache Spark. Completed a capstone project designing and managing a data engineering platform inspired by real-world scenarios.
   - title: 'Data Science and Big Data Analytics'
     url: https://bestr.it/award/show/TACoJWjJSDmAv1H-GRGc4Q
-    date: '2020-04-21'
+    date: '2021-04-01'
     awarder: IFOA
     icon: devicon/minitab
     summary: |
