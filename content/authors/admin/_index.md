@@ -172,7 +172,7 @@ awards:
     url: https://bestr.it/award/show/TACoJWjJSDmAv1H-GRGc4Q
     date: '2020-04-01'
     awarder: IFOA
-    icon: custom/ifoa
+    #icon: 
     summary: |
       Covered methodologies in data science, advanced software solutions for analytics, management of distributed data systems, computational methods for big data, and scalable algorithms for dimensionality reduction, clustering, and ranking.
 
