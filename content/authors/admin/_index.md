@@ -61,11 +61,11 @@ work:
     company_name: University of Bologna
     company_url: 'https://www.unibo.it/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-06-15
+    date_end: 2023-06-15
     summary: |
       Responsibilities included:
-      - Extracting textual data from subtitles and temporally [combining it](https://github.com/TinfFoil/isotopy-identification/tree/main/subtitles) with the Medical Dramas Dataset developed by the [Department of Arts](https://dar.unibo.it/it/index.html) of the University of Bologna.
+      - Extracting textual data from subtitles and [combining it](https://github.com/TinfFoil/isotopy-identification/tree/main/subtitles) with the Medical Dramas Dataset developed by the [Department of Arts](https://dar.unibo.it/it/index.html) of the University of Bologna.
       - [Fine-tuning](https://github.com/TinfFoil/isotopy-identification/blob/main/models/multimodal_multi.py) MMBT (Multimodal Bitransformer), which resulted in a 7.6% higher F1 score commpared to the text-only models.
 
 #interests:
