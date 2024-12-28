@@ -83,7 +83,7 @@ body {
   margin-left: 20px; /* Adjust this value to align with subtitles */
 }
 
-a:not(.line-clamp-3) {
+a {
   color: #5872ff;
   text-decoration: none;
 }
@@ -91,6 +91,10 @@ a:not(.line-clamp-3) {
 a:hover {
   color: #5872ff;
   text-decoration: underline;
+}
+
+.line-clamp-3 {
+  color: inherit;
 }
 
 /* Do not apply the blue color to these specific areas */
