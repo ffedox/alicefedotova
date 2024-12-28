@@ -65,8 +65,7 @@ work:
     date_end: 2020-12-31
     summary: |
       Responsibilities included:
-      - Investigating and comparing models for the automatic analysis of audiovisual content.
-      - Extracting textual data from subtitles and [combining it](https://github.com/TinfFoil/isotopy-identification/tree/main/subtitles) with the Medical Dramas Dataset.
+      - Extracting textual data from subtitles and temporally [combining it](https://github.com/TinfFoil/isotopy-identification/tree/main/subtitles) with the Medical Dramas Dataset developed by the [Department of Arts](https://dar.unibo.it/it/index.html) of the University of Bologna.
       - [Fine-tuning](https://github.com/TinfFoil/isotopy-identification/blob/main/models/multimodal_multi.py) MMBT (Multimodal Bitransformer), which resulted in a 7.6% higher F1 score commpared to the text-only models.
 
 #interests:
@@ -83,7 +82,7 @@ education:
     summary: |
       Final Grade: 110/110 with Honors
 
-      Curriculum of the Specialized Translation MA. Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and worked with UniBo's [Language Technologies Lab](https://site.unibo.it/nlp/en).
+      Curriculum of the Specialized Translation MA. Thesis on _Multimodal Classification of Audiovisual Content_. Supervised by [Prof. Alberto Barrón-Cedeño](https://www.unibo.it/sitoweb/a.b#arron). Presented a paper at the [14th Media Mutations International Conference](https://www.mediamutations.org/) and collaborated with the [Language Technologies Lab](https://site.unibo.it/nlp/en) of the University of Bologna.
 
       Courses included:
       - Natural Language Processing
