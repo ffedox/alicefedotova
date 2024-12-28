@@ -1,6 +1,6 @@
 ---
 title: 🗞️ Updates and highlights from the CLiC-it 2024 conference in Pisa, Italy
-summary: An overview of the main themes and research directions presented by leading researchers and practitioners.
+summary: An overview of the main themes and research directions presented by leading researchers in the field of computational linguistics.
 date: 2024-12-06
 authors:
   - admin
