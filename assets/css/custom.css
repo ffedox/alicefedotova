@@ -181,5 +181,6 @@ body:has(header.landing-header) footer.container {
 }
 
 #section-resume-biography-3 {
-  margin-bottom: 2rem; /* Adjust this value for the desired space */
+  margin-bottom: 2rem; /* Adjust this value for spacing */
+  background-color: #272935; /* Set the background color */
 }
