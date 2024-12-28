@@ -8,6 +8,6 @@ tags:
   - Statistics
 ---
 
-Investigating standardized type-token ratio in mediated texts with ANOVA.
+R code for investigating standardized type-token ratio in mediated texts with ANOVA.
 
 <!--more-->
