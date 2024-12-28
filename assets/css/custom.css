@@ -184,7 +184,7 @@ body:has(header.landing-header) footer.container {
   position: relative; /* Establish context for absolute positioning */
   padding: 6rem 0 200px; /* Add padding to the bottom for spacing */
   min-height: 600px; /* Ensure the section has a height */
-  background-color: #23252f; /* Apply the background to the entire section */
+  background-color: #272935; /* Apply the background to the entire section */
 }
 
 .home-section-bg.bg-image {
@@ -194,7 +194,7 @@ body:has(header.landing-header) footer.container {
   width: 100%;
   height: calc(100% + 200px); /* Extend background downwards */
   z-index: -1; /* Place behind other content */
-  background-color: #23252f; /* Ensure consistent background color */
+  background-color: #272935; /* Ensure consistent background color */
   background-size: cover; /* Ensure the image covers the area */
   background-position: center; /* Center the background image */
 }
