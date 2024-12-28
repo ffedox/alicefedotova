@@ -182,7 +182,7 @@ body:has(header.landing-header) footer.container {
 
 #section-resume-biography-3 {
   position: relative; /* Establish context for absolute positioning */
-  padding: 6rem 0 200px; /* Add padding to the bottom for spacing */
+  padding: 6rem 0 400px; /* Add padding to the bottom for spacing */
   min-height: 600px; /* Ensure the section has a height */
   background-color: #272935; /* Apply the background to the entire section */
 }
