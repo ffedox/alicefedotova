@@ -180,8 +180,9 @@ body:has(header.landing-header) footer.container {
   overflow: hidden; /* Hides any content that overflows */
 }
 
-#section-resume-biography-3 {
-  margin-bottom: 2rem; /* Space below the section */
-  background-color: #272935; /* Correct background color */
-  padding-bottom: 2rem; /* Ensures it covers visually */
+#section-resume-biography-3::after {
+  content: "";
+  display: block;
+  height: 2rem; /* Same as the margin-bottom */
+  background-color: #272935;
 }
