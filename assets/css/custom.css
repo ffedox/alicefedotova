@@ -195,5 +195,5 @@ body:has(header.landing-header) footer.container {
 
 #section-resume-biography-3 {
   position: relative; /* Establish containing context */
-  padding-bottom: 50px; /* Add spacing below content */
+  padding-bottom: 200px; /* Add spacing below content */
 }
