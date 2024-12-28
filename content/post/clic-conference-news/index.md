@@ -1,5 +1,5 @@
 ---
-title: 🗞️ Updated and highlights from the CLiC-it 2024 conference in Pisa, Italy
+title: 🗞️ Updates and highlights from the CLiC-it 2024 conference in Pisa, Italy
 summary: An overview of the main themes and research directions presented by leading researchers and practitioners.
 date: 2024-12-06
 authors:
