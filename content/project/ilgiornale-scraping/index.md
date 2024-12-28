@@ -7,6 +7,6 @@ tags:
   - Corpus Construction
 ---
 
-Scripts for extracting a corpus of comments and articles from the website of the newspaper Il Giornale.
+Scripts for extracting a corpus from the website of the newspaper Il Giornale.
 
 <!--more-->
