@@ -1,7 +1,7 @@
 ---
 title: 🎉 Paper accepted at JTDH, the 14th Conference on Language Technologies and Digital Humanities 
 summary: "Expanding the European Parliament Translation and Interpreting Corpus: A Modular Pipeline for the Construction of Complex Corpora"
-date: 2024-09-15
+date: 2024-07-05
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
