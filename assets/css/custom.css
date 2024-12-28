@@ -185,15 +185,16 @@ body:has(header.landing-header) footer.container {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; /* Cover full section */
-  z-index: -1; /* Ensure it stays behind content */
+  height: 100%; /* Adjust later dynamically */
+  z-index: -1; /* Place behind other content */
   background-color: #23252f; /* Background color */
-  background-image: url('your-background-image-path'); /* Set your background image */
-  background-size: cover; /* Cover the entire section */
-  background-position: center; /* Center the image */
+  background-size: cover; /* Ensure the image covers the area */
+  background-position: center; /* Center the background image */
 }
 
 #section-resume-biography-3 {
-  position: relative; /* Establish containing context */
-  padding-bottom: 200px; /* Add spacing below content */
+  position: relative; /* Establish context for absolute positioning */
+  padding: 6rem 0 200px; /* Add padding to the bottom for spacing */
+  min-height: 600px; /* Ensure the section has a height */
 }
+
