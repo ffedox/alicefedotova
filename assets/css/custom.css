@@ -180,8 +180,8 @@ body:has(header.landing-header) footer.container {
   overflow: hidden; /* Hides any content that overflows */
 }
 
-#section-resume-biography-3 {
-  position: relative; /* Ensure normal flow */
-  padding-bottom: 200px;
-  background-color: #272935;
+.home-section-bg.bg-image {
+  position: relative; /* Ensure it's in normal flow */
+  padding-bottom: 50px; /* Push the bottom boundary down */
+  background-color: #272935; /* Ensure consistent background */
 }
