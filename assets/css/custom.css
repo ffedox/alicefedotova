@@ -83,18 +83,14 @@ body {
   margin-left: 20px; /* Adjust this value to align with subtitles */
 }
 
-a {
+#section-resume-biography-3 a {
   color: #5872ff;
   text-decoration: none;
 }
 
-a:hover {
+#section-resume-biography-3 a:hover {
   color: #5872ff;
   text-decoration: underline;
-}
-
-.line-clamp-3 {
-  color: #ffffff;
 }
 
 /* Do not apply the blue color to these specific areas */
