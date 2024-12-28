@@ -149,6 +149,8 @@ languages:
     percent: 85
   - name: French
     percent: 65
+  - name: Japanese
+    percent: 15
 
 # Awards.
 #   Add/remove as many awards below as you like.
