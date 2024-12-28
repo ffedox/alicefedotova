@@ -83,7 +83,7 @@ body {
   margin-left: 20px; /* Adjust this value to align with subtitles */
 }
 
-a {
+a:not(.line-clamp-3) {
   color: #5872ff;
   text-decoration: none;
 }
