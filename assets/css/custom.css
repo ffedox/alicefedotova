@@ -181,7 +181,16 @@ body:has(header.landing-header) footer.container {
 }
 
 .home-section-bg.bg-image {
-  position: relative; /* Ensure it's in normal flow */
+  position: relative; /* Ensure it's part of normal flow */
   padding-bottom: 50px; /* Push the bottom boundary down */
-  background-color: #272935; /* Ensure consistent background */
+  background-color: #272935; /* Ensure consistent color */
+  background-image: url('your-background-image-path'); /* Restore background image */
+  background-size: cover; /* Ensure background image covers the section */
+  background-position: center; /* Center the background image */
+}
+
+#section-resume-biography-3 {
+  position: relative; /* Ensure normal flow */
+  margin-bottom: 0; /* Remove unintended extra margin */
+  background-color: transparent; /* Ensure background doesn't conflict */
 }
