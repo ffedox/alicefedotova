@@ -1,5 +1,5 @@
 ---
-title: ✅ Started my work as a Research Fellow on EPTIC, the European Parliament Translation and Interpreting Corpus
+title: ✅ Started working on EPTIC, the European Parliament Translation and Interpreting Corpus
 summary: The aim of the project is to design a pipeline to expand the existing data and experiment with speech recognition models
 date: 2023-10-01
 authors:
