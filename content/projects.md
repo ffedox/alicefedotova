@@ -12,7 +12,7 @@ sections:
   - block: collection
     content:
       title: Other Projects
-      text: Here you can check out some more projects that I have worked on during my studies.
+      text: 
       filters:
         folders:
           - project
