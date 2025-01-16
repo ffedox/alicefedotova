@@ -68,7 +68,7 @@ featured: false
 #   url: ""
 url_pdf: https://www.sdjt.si/wp/wp-content/uploads/2024/09/JT-DH_2024_Fedotova_Ferraresi_MilicevicPetrovic_Borron-Cedeno.pdf
 url_code: 'https://github.com/ffedox/eptic-pipeline-2025'
-url_dataset: 'https://corpora.dipintra.it/eptic/'
+url_dataset: 'https://bellatrix.sslmit.unibo.it/noske/eptic3'
 url_poster: ''
 url_project: ''
 url_slides: ''
