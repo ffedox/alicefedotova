@@ -9,6 +9,8 @@ name_pronunciation: ''
 first_name: Alice
 last_name: Fedotova
 
+relcanonical: "https://www.alicefedotova.com/"
+
 # Status emoji
 status:
   icon: 
