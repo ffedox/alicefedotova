@@ -40,7 +40,7 @@ featured: true
 url_pdf: https://ceur-ws.org/Vol-3878/41_main_long.pdf
 url_code: 'https://github.com/ffedox/eptic-pipeline-2025'
 url_dataset: 'https://corpora.dipintra.it/eptic/'
-url_poster: ''
+url_poster: 'https://github.com/ffedox/alicefedotova/blob/4045b1f8569776fe27e9bb2a1855834f44462d41/static/files/clic_poster.pdf'
 url_project: ''
 url_slides: ''
 url_source: ''
