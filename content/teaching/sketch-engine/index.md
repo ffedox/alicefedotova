@@ -4,6 +4,7 @@ summary: A very quick intro to Sketch Engine. Tutorial held within the UpSkills 
 date: 2023-07-17
 type: docs
 math: false
+relcanonical: "https://www.alicefedotova.com/teaching/sketch-engine/"
 tags:
   - Sketch Engine
 image:
