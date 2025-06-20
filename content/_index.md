@@ -40,7 +40,7 @@ sections:
 
         Recent projects include designing pipelines for the construction of complex multilingual corpora, improving automatic speech recognition for verbatim transcription, and fine-tuning multimodal transformers for audiovisual content analysis.
 
-        Currently investigating Task 1 of <a href="https://erisk.irlab.org/" style="color: #5272ff; text-decoration: none;" onmouseover="this.style.textDecoration='underline'" onmouseout="this.style.textDecoration='none'">CLEF eRisk 2025</a>. Open to collaborations! 🔍
+        Currently freelancing and working on personal projects in the field of data science and drug use prevention in Italy. Open to collaborations! 🔍
     design:
       columns: '1'
   - block: collection
