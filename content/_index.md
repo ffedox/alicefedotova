@@ -40,7 +40,7 @@ sections:
 
         Recent projects include designing pipelines for the construction of complex multilingual corpora, improving automatic speech recognition for verbatim transcription, and fine-tuning multimodal transformers for audiovisual content analysis.
 
-        Currently freelancing and working on not-for-profit projects in the field of data science and drug use prevention in Italy. Open to collaborations! 🔍
+        Currently freelancing and working on not-for-profit projects in the field of data science and harm reduction in Italy. Open to collaborations! 🔍
     design:
       columns: '1'
   - block: collection
