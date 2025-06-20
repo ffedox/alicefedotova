@@ -201,7 +201,7 @@ Telegram</a> or to send me any <a href="https://www.admonymous.co/ffedox" style=
         <li>
           <span class="fa-li"><i class="fas fa-briefcase"></i></span>
           <div>
-            <span class="item-title">Data Scientist, 2025 - Now</span>
+            <span class="item-title">Data Scientist, 2025 - Ongoing</span>
             <div class="item-subtitle">Independent Researcher</div>
           </div>
         </li>
