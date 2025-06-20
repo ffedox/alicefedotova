@@ -11,4 +11,3 @@ image:
   caption: 'Image credit: [**University of Bologna**](https://corsi.unibo.it/2cycle/SpecializedTranslation)'
 ---
 
-Started my work as a Research Fellow.
