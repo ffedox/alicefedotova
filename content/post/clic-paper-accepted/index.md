@@ -10,4 +10,3 @@ image:
   caption: 'Image credit: [**CNR**](https://www.cnr.it/)'
 ---
 
-Article about the article.
