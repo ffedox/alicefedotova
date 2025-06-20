@@ -1,28 +1,28 @@
 ---
 title: CLiC-it 2024 Updates
 
-event: Hugo Blox Builder Conference
-event_url: https://example.org
+event: CLiC-it 2024
+event_url: https://clic2024.ilc.cnr.it/
 
-location: Hugo Blox Builder HQ
+location: Consiglio Nazionale delle Ricerche,
 address:
-  street: 450 Serra Mall
-  city: Stanford
-  region: CA
+  street: Via Giuseppe Moruzzi, 56124 
+  city: Pisa
+  region: PI
   postcode: '94305'
-  country: United States
+  country: Italy
 
 summary: Highlights from the CLiC-it 2024 conference, held in Pisa, Italy.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+abstract: 'This year marks the 10th anniversary of the Italian Conference on Computational Linguistics. To celebrate this important achievement for the whole Italian community, CLiC-it 2024 is held in Pisa, like for its first edition in 2014, from 4th to 6th December 2024.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2030-06-01T13:00:00Z'
-date_end: '2030-06-01T15:00:00Z'
+date: '2024-12-06T13:00:00Z'
+#date_end: '2030-06-01T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2017-01-01T00:00:00Z'
+publishDate: '2024-30-06T00:00:00Z'
 
 authors:
   - admin
@@ -41,17 +41,14 @@ image:
 #    icon_pack: fab
 #    name: Follow
 #    url: https://twitter.com/georgecushen
-url_code: 'https://github.com'
-url_pdf: ''
-url_slides: 'https://slideshare.net'
-url_video: 'https://youtube.com'
+url_slides: 'https://centri.unibo.it/colitec/en/research/phd-seminar/fedotova_overview_clic-it2024.pdf/@@download/file/fedotova_overview_CLiC-it2024.pdf'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: ""
+#slides: ""
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
@@ -62,14 +59,3 @@ projects:
   - example
 ---
 
-{{% callout note %}}
-Click on the **Slides** button above to view the built-in slides feature.
-{{% /callout %}}
-
-Slides can be added in a few ways:
-
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
-
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
