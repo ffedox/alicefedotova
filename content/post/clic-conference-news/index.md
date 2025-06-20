@@ -10,4 +10,4 @@ image:
   caption: 'Image credit: [**Euractiv**](https://euractiv.it/section/futuro-delleuropa/news/riforma-elettorale-europea-via-libera-del-parlamento-ue-alle-liste-transnazionali/)'
 ---
 
-Updates to be added here
+The [presentation slides](https://centri.unibo.it/colitec/en/research/phd-seminar/fedotova_overview_clic-it2024.pdf/@@download/file/fedotova_overview_CLiC-it2024.pdf) are now available on the CoLiTec seminar's webpage.
