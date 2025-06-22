@@ -16,3 +16,6 @@ go.sum
 # System/IDE files
 .DS_Store
 .vscode/
+
+static/files/clic_poster.pdf
+content/publication/paper-media-mutations/conference-paper.pdf
