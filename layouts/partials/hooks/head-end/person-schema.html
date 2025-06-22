@@ -2,11 +2,10 @@
 {{- if and $p (eq .Site.Params.marketing.seo.site_type "Person") -}}
   {{- $name := printf "%s %s" $p.Params.first_name $p.Params.last_name -}}
   {{- $url := .Site.Params.canonical | default .Site.BaseURL -}}
-  {{- $img := $p.Params.avatar | default (printf "%s/avatar.jpg" .Site.BaseURL) -}}
+  {{- $img := $p.Params.avatar | default (printf "%s/avatar.jpg" site.BaseURL) -}}
   {{- $sameAs := delimit (slice $p.Params.profiles | map "url") "\",\"" -}}
-  {{- $json := printf `
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"%s","url":"%s","image":"%s","jobTitle":"%s","sameAs":["%s"]}
-</script>` $name $url $img $p.Params.role $sameAs -}}
-  {{- $json | safeHTML }}
+
+  {{- printf `<script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"%s","url":"%s","image":"%s","jobTitle":"%s","sameAs":["%s"]}
+  </script>` $name $url $img $p.Params.role $sameAs | safeHTML }}
 {{- end -}}
