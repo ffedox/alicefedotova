@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Multimodal Transformers | Alice Fedotova</title>
-    <link>http://localhost:62298/tags/multimodal-transformers/</link>
-      <atom:link href="http://localhost:62298/tags/multimodal-transformers/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/tags/multimodal-transformers/</link>
+      <atom:link href="http://localhost:63992/tags/multimodal-transformers/index.xml" rel="self" type="application/rss+xml" />
     <description>Multimodal Transformers</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 23 Dec 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Multimodal Transformers</title>
-      <link>http://localhost:62298/tags/multimodal-transformers/</link>
+      <link>http://localhost:63992/tags/multimodal-transformers/</link>
     </image>
     
     <item>
       <title>Decoding Medical Dramas: Identifying Isotopies through Multimodal Classification</title>
-      <link>http://localhost:62298/publication/paper-media-mutations/</link>
+      <link>http://localhost:63992/publication/paper-media-mutations/</link>
       <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-media-mutations/</guid>
+      <guid>http://localhost:63992/publication/paper-media-mutations/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;5-toward-the-automatic-identification-of-isotopies&#34;&gt;5. Toward the Automatic Identification of Isotopies&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;

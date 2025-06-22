@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maja Miličević Petrović | Alice Fedotova</title>
-    <link>http://localhost:62298/author/maja-milicevic-petrovic/</link>
-      <atom:link href="http://localhost:62298/author/maja-milicevic-petrovic/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/author/maja-milicevic-petrovic/</link>
+      <atom:link href="http://localhost:63992/author/maja-milicevic-petrovic/index.xml" rel="self" type="application/rss+xml" />
     <description>Maja Miličević Petrović</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Maja Miličević Petrović</title>
-      <link>http://localhost:62298/author/maja-milicevic-petrovic/</link>
+      <link>http://localhost:63992/author/maja-milicevic-petrovic/</link>
     </image>
     
     <item>
       <title>Constructing EPTIC: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription</title>
-      <link>http://localhost:62298/publication/paper-clic-it/</link>
+      <link>http://localhost:63992/publication/paper-clic-it/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-clic-it/</guid>
+      <guid>http://localhost:63992/publication/paper-clic-it/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;constructing-a-multimodal-multilingual-translation-and-interpreting-corpus-a-modular-pipeline-and-an-evaluation-of-asr-for-verbatim-transcription&#34;&gt;Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
@@ -42,9 +42,9 @@ model still outperforming the baseline (0.201 vs. 0.219).&lt;/p&gt;
     
     <item>
       <title>Expanding the European Parliament Translation and Interpreting Corpus: A Modular Pipeline for the Construction of Complex Corpora</title>
-      <link>http://localhost:62298/publication/extended-jtdh/</link>
+      <link>http://localhost:63992/publication/extended-jtdh/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/extended-jtdh/</guid>
+      <guid>http://localhost:63992/publication/extended-jtdh/</guid>
       <description></description>
     </item>
     

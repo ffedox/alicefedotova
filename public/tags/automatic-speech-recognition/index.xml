@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Automatic Speech Recognition | Alice Fedotova</title>
-    <link>http://localhost:62298/tags/automatic-speech-recognition/</link>
-      <atom:link href="http://localhost:62298/tags/automatic-speech-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/tags/automatic-speech-recognition/</link>
+      <atom:link href="http://localhost:63992/tags/automatic-speech-recognition/index.xml" rel="self" type="application/rss+xml" />
     <description>Automatic Speech Recognition</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Automatic Speech Recognition</title>
-      <link>http://localhost:62298/tags/automatic-speech-recognition/</link>
+      <link>http://localhost:63992/tags/automatic-speech-recognition/</link>
     </image>
     
     <item>
       <title>Constructing EPTIC: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription</title>
-      <link>http://localhost:62298/publication/paper-clic-it/</link>
+      <link>http://localhost:63992/publication/paper-clic-it/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-clic-it/</guid>
+      <guid>http://localhost:63992/publication/paper-clic-it/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;constructing-a-multimodal-multilingual-translation-and-interpreting-corpus-a-modular-pipeline-and-an-evaluation-of-asr-for-verbatim-transcription&#34;&gt;Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
@@ -42,17 +42,17 @@ model still outperforming the baseline (0.201 vs. 0.219).&lt;/p&gt;
     
     <item>
       <title>🏆 Paper accepted at CLiC-it 2024, the Tenth Italian Conference on Computational Linguistics</title>
-      <link>http://localhost:62298/post/clic-paper-accepted/</link>
+      <link>http://localhost:63992/post/clic-paper-accepted/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/clic-paper-accepted/</guid>
+      <guid>http://localhost:63992/post/clic-paper-accepted/</guid>
       <description></description>
     </item>
     
     <item>
       <title>✅ Started working on EPTIC, the European Parliament Translation and Interpreting Corpus</title>
-      <link>http://localhost:62298/post/research-fellow-eptic/</link>
+      <link>http://localhost:63992/post/research-fellow-eptic/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/research-fellow-eptic/</guid>
+      <guid>http://localhost:63992/post/research-fellow-eptic/</guid>
       <description></description>
     </item>
     

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Corpus Construction | Alice Fedotova</title>
-    <link>http://localhost:62298/tags/corpus-construction/</link>
-      <atom:link href="http://localhost:62298/tags/corpus-construction/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/tags/corpus-construction/</link>
+      <atom:link href="http://localhost:63992/tags/corpus-construction/index.xml" rel="self" type="application/rss+xml" />
     <description>Corpus Construction</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 20 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Corpus Construction</title>
-      <link>http://localhost:62298/tags/corpus-construction/</link>
+      <link>http://localhost:63992/tags/corpus-construction/</link>
     </image>
     
     <item>
       <title>ilgiornale-scraping</title>
-      <link>http://localhost:62298/project/ilgiornale-scraping/</link>
+      <link>http://localhost:63992/project/ilgiornale-scraping/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/project/ilgiornale-scraping/</guid>
+      <guid>http://localhost:63992/project/ilgiornale-scraping/</guid>
       <description>&lt;p&gt;Scripts for extracting a corpus of comments and articles from an Italian newspaper.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>parallel-wikipedia</title>
-      <link>http://localhost:62298/project/parallel-wikipedia/</link>
+      <link>http://localhost:63992/project/parallel-wikipedia/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/project/parallel-wikipedia/</guid>
+      <guid>http://localhost:63992/project/parallel-wikipedia/</guid>
       <description>&lt;p&gt;A semi-automatic approach to in-domain parallel corpora extraction from Wikipedia.&lt;/p&gt;</description>
     </item>
     

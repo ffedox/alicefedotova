@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics | Alice Fedotova</title>
-    <link>http://localhost:62298/tags/statistics/</link>
-      <atom:link href="http://localhost:62298/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/tags/statistics/</link>
+      <atom:link href="http://localhost:63992/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     <description>Statistics</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Statistics</title>
-      <link>http://localhost:62298/tags/statistics/</link>
+      <link>http://localhost:63992/tags/statistics/</link>
     </image>
     
     <item>
       <title>sttr-data-analysis</title>
-      <link>http://localhost:62298/project/sttr-data-analysis/</link>
+      <link>http://localhost:63992/project/sttr-data-analysis/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/project/sttr-data-analysis/</guid>
+      <guid>http://localhost:63992/project/sttr-data-analysis/</guid>
       <description>&lt;p&gt;R code for investigating standardized type-token ratio in mediated texts with ANOVA.&lt;/p&gt;</description>
     </item>
     

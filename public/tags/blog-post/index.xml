@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Post | Alice Fedotova</title>
-    <link>http://localhost:62298/tags/blog-post/</link>
-      <atom:link href="http://localhost:62298/tags/blog-post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/tags/blog-post/</link>
+      <atom:link href="http://localhost:63992/tags/blog-post/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog Post</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Blog Post</title>
-      <link>http://localhost:62298/tags/blog-post/</link>
+      <link>http://localhost:63992/tags/blog-post/</link>
     </image>
     
     <item>
       <title>🗞️ Updates and highlights from the CLiC-it 2024 conference in Pisa, Italy</title>
-      <link>http://localhost:62298/post/clic-conference-news/</link>
+      <link>http://localhost:63992/post/clic-conference-news/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/clic-conference-news/</guid>
+      <guid>http://localhost:63992/post/clic-conference-news/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://centri.unibo.it/colitec/en/research/phd-seminar/fedotova_overview_clic-it2024.pdf/@@download/file/fedotova_overview_CLiC-it2024.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation slides&lt;/a&gt; are now available on the CoLiTec seminar&amp;rsquo;s webpage.&lt;/p&gt;
 </description>
     </item>

@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About Me | Alice Fedotova</title>
-    <link>http://localhost:62298/</link>
-      <atom:link href="http://localhost:62298/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/</link>
+      <atom:link href="http://localhost:63992/index.xml" rel="self" type="application/rss+xml" />
     <description>About Me</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>About Me</title>
-      <link>http://localhost:62298/</link>
+      <link>http://localhost:63992/</link>
     </image>
     
     <item>
       <title>CLiC-it 2024 Updates</title>
-      <link>http://localhost:62298/event/example/</link>
+      <link>http://localhost:63992/event/example/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/event/example/</guid>
+      <guid>http://localhost:63992/event/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Constructing EPTIC: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription</title>
-      <link>http://localhost:62298/publication/paper-clic-it/</link>
+      <link>http://localhost:63992/publication/paper-clic-it/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-clic-it/</guid>
+      <guid>http://localhost:63992/publication/paper-clic-it/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;constructing-a-multimodal-multilingual-translation-and-interpreting-corpus-a-modular-pipeline-and-an-evaluation-of-asr-for-verbatim-transcription&#34;&gt;Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
@@ -50,67 +50,67 @@ model still outperforming the baseline (0.201 vs. 0.219).&lt;/p&gt;
     
     <item>
       <title>🗞️ Updates and highlights from the CLiC-it 2024 conference in Pisa, Italy</title>
-      <link>http://localhost:62298/post/clic-conference-news/</link>
+      <link>http://localhost:63992/post/clic-conference-news/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/clic-conference-news/</guid>
+      <guid>http://localhost:63992/post/clic-conference-news/</guid>
       <description>&lt;p&gt;The &lt;a href=&#34;https://centri.unibo.it/colitec/en/research/phd-seminar/fedotova_overview_clic-it2024.pdf/@@download/file/fedotova_overview_CLiC-it2024.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;presentation slides&lt;/a&gt; are now available on the CoLiTec seminar&amp;rsquo;s webpage.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>🏆 Paper accepted at CLiC-it 2024, the Tenth Italian Conference on Computational Linguistics</title>
-      <link>http://localhost:62298/post/clic-paper-accepted/</link>
+      <link>http://localhost:63992/post/clic-paper-accepted/</link>
       <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/clic-paper-accepted/</guid>
+      <guid>http://localhost:63992/post/clic-paper-accepted/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Expanding the European Parliament Translation and Interpreting Corpus: A Modular Pipeline for the Construction of Complex Corpora</title>
-      <link>http://localhost:62298/publication/extended-jtdh/</link>
+      <link>http://localhost:63992/publication/extended-jtdh/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/extended-jtdh/</guid>
+      <guid>http://localhost:63992/publication/extended-jtdh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🎉 Paper accepted at JTDH, the 14th Conference on Language Technologies and Digital Humanities</title>
-      <link>http://localhost:62298/post/jtdh-paper-accepted/</link>
+      <link>http://localhost:63992/post/jtdh-paper-accepted/</link>
       <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/jtdh-paper-accepted/</guid>
+      <guid>http://localhost:63992/post/jtdh-paper-accepted/</guid>
       <description>&lt;p&gt;s&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>A Corpus for Sentence-Level Subjectivity Detection on English News Articles</title>
-      <link>http://localhost:62298/publication/paper-lrec-coling/</link>
+      <link>http://localhost:63992/publication/paper-lrec-coling/</link>
       <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-lrec-coling/</guid>
+      <guid>http://localhost:63992/publication/paper-lrec-coling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:62298/projects/</link>
+      <link>http://localhost:63992/projects/</link>
       <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/projects/</guid>
+      <guid>http://localhost:63992/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linear and Logistic Regression</title>
-      <link>http://localhost:62298/teaching/regression/</link>
+      <link>http://localhost:63992/teaching/regression/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/teaching/regression/</guid>
+      <guid>http://localhost:63992/teaching/regression/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decoding Medical Dramas: Identifying Isotopies through Multimodal Classification</title>
-      <link>http://localhost:62298/publication/paper-media-mutations/</link>
+      <link>http://localhost:63992/publication/paper-media-mutations/</link>
       <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-media-mutations/</guid>
+      <guid>http://localhost:63992/publication/paper-media-mutations/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;5-toward-the-automatic-identification-of-isotopies&#34;&gt;5. Toward the Automatic Identification of Isotopies&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
@@ -376,50 +376,50 @@ Department of Interpreting and Translation, University of Bologna&lt;/p&gt;
     
     <item>
       <title>Experience</title>
-      <link>http://localhost:62298/experience/</link>
+      <link>http://localhost:63992/experience/</link>
       <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/experience/</guid>
+      <guid>http://localhost:63992/experience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>✅ Started working on EPTIC, the European Parliament Translation and Interpreting Corpus</title>
-      <link>http://localhost:62298/post/research-fellow-eptic/</link>
+      <link>http://localhost:63992/post/research-fellow-eptic/</link>
       <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/post/research-fellow-eptic/</guid>
+      <guid>http://localhost:63992/post/research-fellow-eptic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sketch Engine Crash Course</title>
-      <link>http://localhost:62298/teaching/sketch-engine/</link>
+      <link>http://localhost:63992/teaching/sketch-engine/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/teaching/sketch-engine/</guid>
+      <guid>http://localhost:63992/teaching/sketch-engine/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.sketchengine.eu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sketch Engine&lt;/a&gt; tutorial. A tutorial on Sketch Engine.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>sttr-data-analysis</title>
-      <link>http://localhost:62298/project/sttr-data-analysis/</link>
+      <link>http://localhost:63992/project/sttr-data-analysis/</link>
       <pubDate>Thu, 15 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/project/sttr-data-analysis/</guid>
+      <guid>http://localhost:63992/project/sttr-data-analysis/</guid>
       <description>&lt;p&gt;R code for investigating standardized type-token ratio in mediated texts with ANOVA.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>ilgiornale-scraping</title>
-      <link>http://localhost:62298/project/ilgiornale-scraping/</link>
+      <link>http://localhost:63992/project/ilgiornale-scraping/</link>
       <pubDate>Sat, 20 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/project/ilgiornale-scraping/</guid>
+      <guid>http://localhost:63992/project/ilgiornale-scraping/</guid>
       <description>&lt;p&gt;Scripts for extracting a corpus of comments and articles from an Italian newspaper.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>parallel-wikipedia</title>
-      <link>http://localhost:62298/project/parallel-wikipedia/</link>
+      <link>http://localhost:63992/project/parallel-wikipedia/</link>
       <pubDate>Sat, 04 Feb 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/project/parallel-wikipedia/</guid>
+      <guid>http://localhost:63992/project/parallel-wikipedia/</guid>
       <description>&lt;p&gt;A semi-automatic approach to in-domain parallel corpora extraction from Wikipedia.&lt;/p&gt;</description>
     </item>
     

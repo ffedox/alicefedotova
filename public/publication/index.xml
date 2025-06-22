@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications | Alice Fedotova</title>
-    <link>http://localhost:62298/publication/</link>
-      <atom:link href="http://localhost:62298/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:63992/publication/</link>
+      <atom:link href="http://localhost:63992/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <url>http://localhost:63992/media/icon_hu12323056716241851092.png</url>
       <title>Publications</title>
-      <link>http://localhost:62298/publication/</link>
+      <link>http://localhost:63992/publication/</link>
     </image>
     
     <item>
       <title>Constructing EPTIC: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription</title>
-      <link>http://localhost:62298/publication/paper-clic-it/</link>
+      <link>http://localhost:63992/publication/paper-clic-it/</link>
       <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-clic-it/</guid>
+      <guid>http://localhost:63992/publication/paper-clic-it/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;constructing-a-multimodal-multilingual-translation-and-interpreting-corpus-a-modular-pipeline-and-an-evaluation-of-asr-for-verbatim-transcription&#34;&gt;Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
@@ -42,25 +42,25 @@ model still outperforming the baseline (0.201 vs. 0.219).&lt;/p&gt;
     
     <item>
       <title>Expanding the European Parliament Translation and Interpreting Corpus: A Modular Pipeline for the Construction of Complex Corpora</title>
-      <link>http://localhost:62298/publication/extended-jtdh/</link>
+      <link>http://localhost:63992/publication/extended-jtdh/</link>
       <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/extended-jtdh/</guid>
+      <guid>http://localhost:63992/publication/extended-jtdh/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Corpus for Sentence-Level Subjectivity Detection on English News Articles</title>
-      <link>http://localhost:62298/publication/paper-lrec-coling/</link>
+      <link>http://localhost:63992/publication/paper-lrec-coling/</link>
       <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-lrec-coling/</guid>
+      <guid>http://localhost:63992/publication/paper-lrec-coling/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decoding Medical Dramas: Identifying Isotopies through Multimodal Classification</title>
-      <link>http://localhost:62298/publication/paper-media-mutations/</link>
+      <link>http://localhost:63992/publication/paper-media-mutations/</link>
       <pubDate>Sat, 23 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:62298/publication/paper-media-mutations/</guid>
+      <guid>http://localhost:63992/publication/paper-media-mutations/</guid>
       <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
 &lt;h3 id=&#34;5-toward-the-automatic-identification-of-isotopies&#34;&gt;5. Toward the Automatic Identification of Isotopies&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
