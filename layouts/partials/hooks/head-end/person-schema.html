@@ -1,10 +1,12 @@
-{{- $p := .Site.GetPage "authors/admin/_index.md" -}}
-{{- if and $p (.Site.Params.marketing.seo.site_type | eq "Person") -}}
+{{- $p := site.GetPage "authors/admin/_index.md" -}}
+{{- if and $p (eq .Site.Params.marketing.seo.site_type "Person") -}}
   {{- $name := printf "%s %s" $p.Params.first_name $p.Params.last_name -}}
-  {{- $url := $.Site.Params.canonical | default $.Site.BaseURL -}}
+  {{- $url := .Site.Params.canonical | default .Site.BaseURL -}}
   {{- $img := $p.Params.avatar | default (printf "%s/avatar.jpg" .Site.BaseURL) -}}
   {{- $sameAs := delimit (slice $p.Params.profiles | map "url") "\",\"" -}}
-  {{ printf `<script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Person","name":"%s","url":"%s","image":"%s","jobTitle":"%s","sameAs":["%s"]}
-  </script>` $name $url $img $p.Params.role $sameAs | safeHTML }}
+  {{- $json := printf `
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"%s","url":"%s","image":"%s","jobTitle":"%s","sameAs":["%s"]}
+</script>` $name $url $img $p.Params.role $sameAs -}}
+  {{- $json | safeHTML }}
 {{- end -}}
