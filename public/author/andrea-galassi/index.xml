@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Andrea Galassi | Alice Fedotova</title>
+    <link>http://localhost:62298/author/andrea-galassi/</link>
+      <atom:link href="http://localhost:62298/author/andrea-galassi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Andrea Galassi</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 25 May 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <title>Andrea Galassi</title>
+      <link>http://localhost:62298/author/andrea-galassi/</link>
+    </image>
+    
+    <item>
+      <title>A Corpus for Sentence-Level Subjectivity Detection on English News Articles</title>
+      <link>http://localhost:62298/publication/paper-lrec-coling/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/publication/paper-lrec-coling/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

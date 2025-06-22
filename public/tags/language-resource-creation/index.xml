@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Language Resource Creation | Alice Fedotova</title>
+    <link>http://localhost:62298/tags/language-resource-creation/</link>
+      <atom:link href="http://localhost:62298/tags/language-resource-creation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Language Resource Creation</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 15 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <title>Language Resource Creation</title>
+      <link>http://localhost:62298/tags/language-resource-creation/</link>
+    </image>
+    
+    <item>
+      <title>Expanding the European Parliament Translation and Interpreting Corpus: A Modular Pipeline for the Construction of Complex Corpora</title>
+      <link>http://localhost:62298/publication/extended-jtdh/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/publication/extended-jtdh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>🎉 Paper accepted at JTDH, the 14th Conference on Language Technologies and Digital Humanities</title>
+      <link>http://localhost:62298/post/jtdh-paper-accepted/</link>
+      <pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/post/jtdh-paper-accepted/</guid>
+      <description>&lt;p&gt;s&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Corpus for Sentence-Level Subjectivity Detection on English News Articles</title>
+      <link>http://localhost:62298/publication/paper-lrec-coling/</link>
+      <pubDate>Sat, 25 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/publication/paper-lrec-coling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>✅ Started working on EPTIC, the European Parliament Translation and Interpreting Corpus</title>
+      <link>http://localhost:62298/post/research-fellow-eptic/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/post/research-fellow-eptic/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

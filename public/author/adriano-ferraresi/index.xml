@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adriano Ferraresi | Alice Fedotova</title>
+    <link>http://localhost:62298/author/adriano-ferraresi/</link>
+      <atom:link href="http://localhost:62298/author/adriano-ferraresi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Adriano Ferraresi</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:62298/media/icon_hu12323056716241851092.png</url>
+      <title>Adriano Ferraresi</title>
+      <link>http://localhost:62298/author/adriano-ferraresi/</link>
+    </image>
+    
+    <item>
+      <title>Constructing EPTIC: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription</title>
+      <link>http://localhost:62298/publication/paper-clic-it/</link>
+      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/publication/paper-clic-it/</guid>
+      <description>&lt;h3 id=&#34;full-text&#34;&gt;Full Text&lt;/h3&gt;
+&lt;h3 id=&#34;constructing-a-multimodal-multilingual-translation-and-interpreting-corpus-a-modular-pipeline-and-an-evaluation-of-asr-for-verbatim-transcription&#34;&gt;Constructing a Multimodal, Multilingual Translation and Interpreting Corpus: A Modular Pipeline and an Evaluation of ASR for Verbatim Transcription&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Alice Fedotova&lt;/strong&gt;&lt;br&gt;
+Department of Interpreting and Translation, University of Bologna&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Adriano Ferraresi&lt;/strong&gt;&lt;br&gt;
+Department of Interpreting and Translation, University of Bologna&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Maja Miličević Petrović&lt;/strong&gt;&lt;br&gt;
+Department of Interpreting and Translation, University of Bologna&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alberto Barrón-Cedeño&lt;/strong&gt;&lt;br&gt;
+Department of Interpreting and Translation, University of Bologna&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;This paper presents a novel pipeline for constructing multimodal and multilingual parallel corpora, with a focus on evaluating
+state-of-the-art automatic speech recognition tools for verbatim transcription. The pipeline was developed during the process
+of updating the European Parliament Translation and Interpreting Corpus (EPTIC), leveraging recent NLP advancements to
+automate challenging tasks like multilingual alignment and speech recognition. Our findings indicate that current technologies
+can streamline corpus construction, with fine-tuning showing promising results in terms of transcription quality compared to
+out-of-the-box Whisper models. The lowest overall WER achieved for English was 0.180, using a fine-tuned Whisper-small
+model. As for Italian, the lowest WER (0.152) was obtained by the Whisper Large-v2 model, with the fine-tuned Whisper-small
+model still outperforming the baseline (0.201 vs. 0.219).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Keywords:&lt;/strong&gt; multimodal corpora construction, translation and interpreting corpora, verbatim automatic speech recognition&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Expanding the European Parliament Translation and Interpreting Corpus: A Modular Pipeline for the Construction of Complex Corpora</title>
+      <link>http://localhost:62298/publication/extended-jtdh/</link>
+      <pubDate>Sun, 15 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:62298/publication/extended-jtdh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
