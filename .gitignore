@@ -1,0 +1,18 @@
+# Dependency directories
+node_modules/
+resources/
+
+# Hugo build output
+public/
+hugo/
+hugo.exe
+hugo_stats.json
+
+# Config artifacts
+package-lock.json
+go.sum
+*.log
+
+# System/IDE files
+.DS_Store
+.vscode/
