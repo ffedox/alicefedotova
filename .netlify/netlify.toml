@@ -1,0 +1,66 @@
+headersOrigin = "config"
+redirectsOrigin = "config"
+
+[functions]
+
+[functions."*"]
+
+[[plugins]]
+origin = "config"
+package = "netlify-plugin-hugo-cache-resources"
+
+[plugins.inputs]
+debug = true
+
+[build]
+publish = "/Users/moeko/Desktop/Website/alicefedotova/public"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
+
+[build.environment]
+HUGO_VERSION = "0.136.5"
+HUGO_ENABLEGITINFO = "true"
+HUGO_ENV = "production"
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+[[redirects]]
+from = "http://*"
+to = "https://www.alicefedotova.com/:splat"
+status = 301.0
+force = true
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
+
+[[redirects]]
+from = "https://alicefedotova.com/*"
+to = "https://www.alicefedotova.com/:splat"
+status = 301.0
+force = true
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]
