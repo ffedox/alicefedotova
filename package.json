@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "netlify-cli": "^22.2.1",
     "pagefind": "^1.0.0"
   }
 }
