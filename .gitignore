@@ -23,3 +23,6 @@ node_modules/
 
 # Local Netlify folder
 .netlify
+
+# Ignore old Event
+/Users/moeko/Desktop/Sito Alice 010725/alicefedotova/content/event/example
