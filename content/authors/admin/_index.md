@@ -22,7 +22,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Language Technology Researcher
+role: Researcher and Data Activist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
