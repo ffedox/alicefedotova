@@ -1,5 +1,5 @@
 [build]
-  command = "command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
+  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
   publish = "public"
 
 [build.environment]
@@ -8,7 +8,6 @@
   
 [context.production.environment]
   HUGO_ENV = "production"
-  URL = "https://www.alicefedotova.com"
 
 [context.deploy-preview]
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --source 'public'"
@@ -37,4 +36,3 @@
   for = "/*"
   [headers.values]
     Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-  
