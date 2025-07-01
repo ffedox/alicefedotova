@@ -1,7 +1,7 @@
 ---
 title: 🇮🇹 Expanding my Research Focus, Bridging Academia and Harm Reduction Activism in Italy
 summary: Expanding my research experience from the University of Bologna by working with Italian Harm Reduction groups to promote data-driven public health strategies across Italy and Europe.
-date: 2024-07-01
+date: 2025-07-01
 authors:
   - admin
 tags:
