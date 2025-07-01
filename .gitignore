@@ -20,3 +20,6 @@ go.sum
 static/files/clic_poster.pdf
 content/publication/paper-media-mutations/conference-paper.pdf
 node_modules/
+
+# Local Netlify folder
+.netlify
