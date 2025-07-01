@@ -16,10 +16,17 @@ This September 4-6, I'll be attending the "E Mi No Firmo" Summer School in Flore
 
 I'll share key insights and findings from this workshop through a comprehensive report on my website and social media channels. If you're working in related fields or interested in the intersection of Harm Reduction research and advocacy, I'd love to connect and explore potential collaborations.
 
-You can also support my work as an independent Data Activist through my GoFundMe (link in comments) to help sustain my research and public awareness efforts, and enable me to connect with other advocates and organizations working on these issues.
+You can also support my work as an independent Data Activist through my GoFundMe (link below) to help sustain my research and public awareness efforts, and enable me to connect with other advocates and organizations working on these issues.
 
 For those who've tried to influence policy with data - what was your experience? Thanks for any insights you may have! 📊
 
-Support my independent research: https://gofund.me/cc6ad7cc 
+Support my independent research or reach out to me on any of the platforms below — thank you for your interest!
 
-More about my past and present work: https://www.alicefedotova.com/
+GoFundMe: https://gofund.me/cc6ad7cc 
+
+LinkedIn: https://www.linkedin.com/in/alice-fedotova/
+
+Instagram: https://www.instagram.com/ffedox/
+
+Telegram: https://t.me/alicefedotova
+
